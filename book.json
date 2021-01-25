@@ -3,11 +3,6 @@
   "description": "AndroidAppFactory Doc",
   "author": "zixie",
   "language": "zh-hans",
-  "links": {
-    "sidebar": {
-      "子勰的博客": "https://blog.bihe0832.com/"
-    }
-  },
   "styles": {
     "website": "http://cdn.bihe0832.com/css/global.css"
   },
@@ -37,12 +32,12 @@
   ],
   "pluginsConfig": {
     "favicon": {
-      "shortcut": "http://cdn.bihe0832.com/images/zixie_32.ico",
-      "bookmark": "http://cdn.bihe0832.com/images/zixie_32.ico",
-      "appleTouch": "http://cdn.bihe0832.com/images/zixie_32.ico",
+      "shortcut": "https://cdn.bihe0832.com/images/zixie_32.ico",
+      "bookmark": "https://cdn.bihe0832.com/images/zixie_32.ico",
+      "appleTouch": "https://cdn.bihe0832.com/images/zixie_32.ico",
       "appleTouchMore": {
-        "120x120": "http://cdn.bihe0832.com/images/zixie_32.ico",
-        "180x180": "http://cdn.bihe0832.com/images/zixie_32.ico"
+        "120x120": "https://cdn.bihe0832.com/images/zixie_32.ico",
+        "180x180": "https://cdn.bihe0832.com/images/zixie_32.ico"
       }
     },
     "insert-logo": {
@@ -78,6 +73,15 @@
         "qq",
         "qzone"
       ]
+    },
+    "theme-default": {
+      "showLevel": false
+    },
+    "anchor-navigation-ex": {
+      "multipleH1": false,
+      "float": {
+        "showLevelIcon": true
+      }
     },
     "prism": {
       "css": [

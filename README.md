@@ -1,86 +1,18 @@
-# 使用模板创建新书
+<img src="https://blog.bihe0832.com/public/img/androidappfactory.png" />
 
-## checkout 项目
+做酱油的时候发现做开发那么久竟然没有一整套顺手的开发方案，要从头开始一个一个搭建（相当于之前做的就没什么沉淀），因此开始逐渐整理一整套相对全面并且顺手的开发方案。随着这几年逐渐完善，现在基本上具备雏形了，因此逐渐总结一下。
 
-- 命令
+AAF 是基于组件化方案，逐渐积累的一套 Android 终端开发方案。方案力求做到**技术方案可以轻松的从一个项目复用到另一个项目，或者可以快速在框架基础上开发出一个独立全新的应用，开发过程中基本聚焦在新业务的逻辑，而不是基础功能。**
 
-        git clone https://github.com/bihe0832/gitbook.git
+这篇文档重点介绍 AAF 框架的使用，包括：
 
-- 事例
-  
-        ➜  github  git clone https://github.com/bihe0832/gitbook.git
-        Cloning into 'gitbook'...
-       
-        ……
-    
-        Unpacking objects: 100% (9/9), done.
-    
-## 安装依赖，推荐使用npm
+- 组件使用：如何在自己开发的项目中直接使用 AAF 提供的基础库
 
-- 命令
+- 框架使用：如何直接基于 AAF 开发新的应用
 
-        gitbook install
-            
-    或者
-            
-        npm install
+- 框架开发：如何扩展 AAF 的功能，增加更多组件
 
-- 事例
-                
-        ➜  gitbook git:(master) npm install
-                 
-         ……
+对于「组件使用」没有门槛，就是常见的 maven 第三方库，可以直接引入并使用。**对于「框架使用」和「框架开发」，熟悉、理解和使用有一定门槛，建议先仔细阅读 [安卓开发那些事总纲](https://blog.bihe0832.com/android-dev-summary.html) 里面关于「组件化框架介绍」的内容。**
 
-        1 package is looking for funding
-          run `npm fund` for details
 
-## 初始化新书
 
-- 命令
-
-        gitbook init
-            
-- 事例
-            
-        ➜  gitbook git:(master) gitbook init
-        warn: no summary file in this book
-        info: create SUMMARY.md
-        info: initialization is finished
-    
-## 预览新书
-
-- 命令
-
-        gitbook serve
-            
-- 事例
-            
-        ➜  gitbook git:(master) ✗ gitbook serve
-
-        Live reload server started on port: 35729
-        Press CTRL+C to quit ...
-        
-        ……
-        
-        Starting server ...
-        Serving book on http://localhost:4000
-
-## 生成新书
-
-- 命令
-
-        gitbook build
-            
-- 事例
-            
-        ➜  gitbook git:(master) ✗ gitbook build
-        info: 25 plugins are installed
-        info: 20 explicitly listed
-        
-        ……
-        
-        info: found 1 pages
-        info: found 2 asset files
-        warn: "options" property is deprecated, use config.get(key) instead
-        warn: "options.generator" property is deprecated, use "output.name" instead
-        info: >> generation finished with success in 0.8s !
