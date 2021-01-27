@@ -26,7 +26,7 @@
 
 ### ToastUtils
 
-<img src="https://blog.bihe0832.com/public/img/androidappfactory.png" width="30%"/>
+<img src="./lib-toast.png" width="80%"/>
 
 
 - 通用的Toast 弹框、解决设备兼容性问题
