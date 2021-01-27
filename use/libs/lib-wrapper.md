@@ -22,6 +22,6 @@
 
 [https://github.com/bihe0832/AndroidAppFactory/tree/master/LibWrapper](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibWrapper)
 
-## 组件信息
+## 组件功能
 
 主要是二次封装 [lib-uiutils](./../lib-uiutils.md) 和 [lib-utils](./../lib-utils.md)

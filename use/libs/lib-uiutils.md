@@ -22,6 +22,6 @@
 
 [https://github.com/bihe0832/AndroidAppFactory/tree/master/LibUIUtils](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibUIUtils)
 
-## 组件信息
+## 组件功能
 
 主要是二次封装所有UI相关的基础库

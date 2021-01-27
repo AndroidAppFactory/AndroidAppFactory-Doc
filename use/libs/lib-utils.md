@@ -22,6 +22,6 @@
 
 [https://github.com/bihe0832/AndroidAppFactory/tree/master/LibUtils](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibUtils)
 
-## 组件信息
+## 组件功能
 
 所有非UI相关的基础库的合集，使用时如果用到特殊库，需要添加对应的权限声明

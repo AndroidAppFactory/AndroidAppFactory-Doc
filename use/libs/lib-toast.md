@@ -22,7 +22,7 @@
 
 [https://github.com/bihe0832/AndroidAppFactory/tree/master/LibToast](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibToast)
 
-## 组件信息
+## 组件功能
 
 ### ToastUtils
 

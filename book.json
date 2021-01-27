@@ -9,9 +9,13 @@
   "plugins": [
     "favicon",
     "insert-logo",
+    "sitemap-general",
+    "rss",
+    "copyright",
     "-lunr",
     "-search",
     "search-pro",
+    "edit-link-plus",
     "expandable-chapters",
     "chapter-fold",
     "splitter",
@@ -28,7 +32,8 @@
     "-highlight",
     "flexible-alerts",
     "tbfed-pagefooter",
-    "donate"
+    "donate",
+    "simple-mind-map"
   ],
   "pluginsConfig": {
     "favicon": {
@@ -100,6 +105,31 @@
       "button": "赞赏",
       "wechatText": "努力学技术",
       "alipayText": "潜心做精品"
-    }
+    },
+    "simple-mind-map":{
+        "preset": "colorful"
+    },
+    "rss": {
+        "title": "AndroidAppFactory",
+        "description": "AndroidAppFactory Doc",
+        "author": "zixie",
+        "site_url": "https://android.bihe0832.com/doc/",
+        "feed_url": "https://android.bihe0832.com/doc/rss.xml"
+    },
+    "sitemap-general": {
+        "prefix": "https://android.bihe0832.com/doc/"
+    },
+    "copyright": {
+      "site": "https://android.bihe0832.com",
+      "author": "子勰",
+      "website": "AndroidAppFactory - Doc"
+      },
+      "edit-link-plus": {
+          "base": {
+            "AndroidAppFactory-Doc":"https://github.com/bihe0832/AndroidAppFactory-Doc/edit/master"
+          },
+          "defaultBase": "https://github.com/bihe0832/AndroidAppFactory-Doc/edit/master",
+          "label": "编辑本页"
+      }
   }
 }
