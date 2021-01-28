@@ -6,7 +6,7 @@
 * [组件使用](use/summary.md)
     * [添加使用](use/start.md)
     * [基础组件](use/libs/lib.md)
-        * [基础组件集](use/libs/lib-wrapper.md)
+        * [lib-wrapper](use/libs/lib-wrapper.md)
         * [lib-uiutils](use/libs/lib-uiutils.md)
         * [lib-utils](use/libs/lib-utils.md)
         * [lib-android](use/libs/lib-android.md)

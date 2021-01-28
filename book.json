@@ -73,8 +73,6 @@
       "size": "small"
     },
     "sharing": {
-      "qq": true,
-      "weibo": true,
       "all": [
         "facebook",
         "google",
@@ -140,7 +138,7 @@
             "AndroidAppFactory-Doc":"https://github.com/bihe0832/AndroidAppFactory-Doc/edit/master"
           },
           "defaultBase": "https://github.com/bihe0832/AndroidAppFactory-Doc/edit/master",
-          "label": "编辑本页"
+          "label": "编辑"
       }
   }
 }

@@ -24,4 +24,4 @@
 
 ## 组件功能
 
-主要是二次封装 [lib-uiutils](./../lib-uiutils.md) 和 [lib-utils](./../lib-utils.md)
+主要是二次封装 [lib-uiutils](./lib-uiutils.md) 和 [lib-utils](./lib-utils.md)
