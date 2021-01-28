@@ -9,6 +9,7 @@
   "plugins": [
     "favicon",
     "insert-logo",
+    "theme-comscore",
     "sitemap-general",
     "rss",
     "copyright",
@@ -26,10 +27,9 @@
     "github",
     "github-buttons@2.1.0",
     "code",
-
     "anchor-navigation-ex",
-    "prism",
     "-highlight",
+    "prism",
     "flexible-alerts",
     "tbfed-pagefooter",
     "donate",
@@ -37,12 +37,12 @@
   ],
   "pluginsConfig": {
     "favicon": {
-      "shortcut": "https://cdn.bihe0832.com/images/zixie_32.ico",
-      "bookmark": "https://cdn.bihe0832.com/images/zixie_32.ico",
-      "appleTouch": "https://cdn.bihe0832.com/images/zixie_32.ico",
+      "shortcut": "https://cdn.bihe0832.com/images/android_favicon.png",
+      "bookmark": "https://cdn.bihe0832.com/images/android_favicon.png",
+      "appleTouch": "https://cdn.bihe0832.com/images/android_favicon.png",
       "appleTouchMore": {
-        "120x120": "https://cdn.bihe0832.com/images/zixie_32.ico",
-        "180x180": "https://cdn.bihe0832.com/images/zixie_32.ico"
+        "120x120": "https://cdn.bihe0832.com/images/android_favicon.png",
+        "180x180": "https://cdn.bihe0832.com/images/android_favicon.png"
       }
     },
     "insert-logo": {
@@ -60,7 +60,7 @@
     "github-buttons": {
       "repo": "bihe0832/AndroidAppFactory",
       "types": [
-        "star"
+        "star","watch"
       ],
       "size": "small"
     },
@@ -90,8 +90,11 @@
     },
     "prism": {
       "css": [
-        "prismjs/themes/prism-okaidia.css"
-      ]
+        "prismjs/themes/prism-tomorrow.css"
+      ],
+      "lang": {
+        "flow": "java,kotlin"
+      }
     },
     "tbfed-pagefooter": {
       "copyright": "Copyright &copy <a href='https://blog.bihe0832.com'>zixie</a>",
@@ -100,9 +103,9 @@
     },
     "donate": {
       "wechat": "https://blog.bihe0832.com/public/img/wechat.jpeg",
-      "alipay": "https://blog.bihe0832.com/public/img/wechat.jpeg",
-      "title": "",
-      "button": "赞赏",
+      "alipay": "http://cdn.bihe0832.com/images/head.jpg",
+      "title": "点击「鼓励」关注开发者微信公众号或者赞赏鼓励开发者",
+      "button": "鼓励",
       "wechatText": "努力学技术",
       "alipayText": "潜心做精品"
     },
@@ -120,7 +123,7 @@
         "prefix": "https://android.bihe0832.com/doc/"
     },
     "copyright": {
-      "site": "https://android.bihe0832.com",
+      "site": "https://android.bihe0832.com/doc/",
       "author": "子勰",
       "website": "AndroidAppFactory - Doc"
       },

@@ -53,3 +53,11 @@
 - 链接：[https://blog.bihe0832.com/android-dev-router.html](https://blog.bihe0832.com/android-dev-router.html)
 
 - 简介：文章主要总结了我们基于路由的组件通信怎么设计的，包括路由怎么配置、怎么生成，以及怎么基于路由处理通用拦截及页面返回等逻辑。
+
+## 关于作者
+
+<img src="http://cdn.bihe0832.com/images/cv_1080.jpg" width ="80%" />
+
+- 子勰博客：[https://blog.bihe0832.com/](https://blog.bihe0832.com/)
+
+- Github：[https://github.com/bihe0832](https://github.com/bihe0832)
