@@ -40,12 +40,12 @@
   ],
   "pluginsConfig": {
     "favicon": {
-      "shortcut": "https://cdn.bihe0832.com/images/android_favicon.png",
-      "bookmark": "https://cdn.bihe0832.com/images/android_favicon.png",
-      "appleTouch": "https://cdn.bihe0832.com/images/android_favicon.png",
+      "shortcut": "https://cdn.bihe0832.com/images/android_32.ico",
+      "bookmark": "https://cdn.bihe0832.com/images/android_32.ico",
+      "appleTouch": "https://cdn.bihe0832.com/images/android_32.ico",
       "appleTouchMore": {
-        "120x120": "https://cdn.bihe0832.com/images/android_favicon.png",
-        "180x180": "https://cdn.bihe0832.com/images/android_favicon.png"
+        "120x120": "https://cdn.bihe0832.com/images/android_32.ico",
+        "180x180": "https://cdn.bihe0832.com/images/android_32.ico"
       }
     },
     "insert-logo": {
