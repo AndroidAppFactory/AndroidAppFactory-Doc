@@ -36,67 +36,6 @@
 
 		implementation 'com.bihe0832.android:lib-router:+'
 
-[![LibAndroid](https://img.shields.io/badge/AndroidAppFactory-LibAndroid-brightgreen)](#!doc/detail/lib-android.md)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-android/images/download.svg) ](https://bintray.com/bihe0832/android/lib-android/_latestVersion)
-
-- 简介：
-
-	一些系统接口，由于 Android 版本的原因不在可以直接使用，直接引入相关源码
-	
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-android:+'
-
-
-[![LibLog](https://img.shields.io/badge/AndroidAppFactory-LibLog-brightgreen)](#!doc/detail/lib-log.md)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-log/images/download.svg) ](https://bintray.com/bihe0832/android/lib-log/_latestVersion)
-
-- 简介：
-
-	简单封装的日志工具类，支持注册自定义日志实现
-
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-log:+'
-
-[![LibOS](https://img.shields.io/badge/AndroidAppFactory-LibOS-brightgreen)](#!doc/detail/lib-android-os.md)[![Download](https://api.bintray.com/packages/bihe0832/android/lib-android-os/images/download.svg) ](https://bintray.com/bihe0832/android/lib-android-os/_latestVersion)
-
-- 简介：
-
-	对于系统级别的常用功能的封装，例如获取进程名，当前系统版本；展示隐藏软键盘，屏幕宽高获取，dp，sp，px 等各类数据单位之间转换
-
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-android-os:+'
-
-
-[![LibCommonUtils](https://img.shields.io/badge/AndroidAppFactory-LibCommonUtils-brightgreen)](#!doc/detail/lib-utils-common.md)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-utils-common/images/download.svg) ](https://bintray.com/bihe0832/android/lib-utils-common/_latestVersion)
-
-- 简介：
-
-    安全的类型转换、时间格式化、自增ID、随机数等
-
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-utils-common:+'
-
-[![LibThread](https://img.shields.io/badge/AndroidAppFactory-LibThread-brightgreen)](#!doc/detail/lib-thread)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-thread/images/download.svg) ](https://bintray.com/bihe0832/android/lib-thread/_latestVersion)
-
-- 简介：
-
-    线程管理模块，提供了不同优先级（系统级别的优先级）的线程（HandlerThread）及一个有五个线程的线程池
-    
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-thread:+'
-
-![LibEncrypt](https://img.shields.io/badge/AndroidAppFactory-LibEncrypt-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-encrypt/images/download.svg) ](https://bintray.com/bihe0832/android/lib-encrypt/_latestVersion)
-
-- 简介：
-    
-    AES加密，MD5计算，进制转化
-
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-encrypt:+'
 
 ![LibChannel](https://img.shields.io/badge/AndroidAppFactory-LibChannel-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-channel/images/download.svg) ](https://bintray.com/bihe0832/android/lib-channel/_latestVersion)
 
