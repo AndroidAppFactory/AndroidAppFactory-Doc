@@ -12,7 +12,9 @@
 
 ### 组件使用
 
-    implementation 'com.bihe0832.android:lib-toast:+'
+```groovy
+implementation 'com.bihe0832.android:lib-toast:+'
+```
 
 ### 最新版本
 

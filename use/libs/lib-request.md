@@ -12,7 +12,9 @@
 
 ### 组件使用
 
-    implementation 'com.bihe0832.android:lib-request:+'
+```groovy
+implementation 'com.bihe0832.android:lib-request:+'
+```
 
 ### 最新版本
 

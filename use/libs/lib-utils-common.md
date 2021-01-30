@@ -12,7 +12,9 @@
 
 ### 组件使用
 
-    implementation 'com.bihe0832.android:lib-utils-common:+'
+```groovy
+implementation 'com.bihe0832.android:lib-utils-common:+'
+```
 
 ### 最新版本
 

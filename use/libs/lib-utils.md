@@ -11,7 +11,9 @@
 
 ### 组件使用
 
-    implementation 'com.bihe0832.android:lib-utils:+'
+```groovy
+implementation 'com.bihe0832.android:lib-utils:+'
+```
 
 ### 最新版本
 

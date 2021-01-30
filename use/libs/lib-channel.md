@@ -17,7 +17,9 @@
 
 ### 组件使用
 
-    implementation 'com.bihe0832.android:lib-channel:+'
+```groovy
+implementation 'com.bihe0832.android:lib-channel:+'
+```
 
 ### 最新版本
 

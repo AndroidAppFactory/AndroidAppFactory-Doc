@@ -12,7 +12,9 @@
 
 ### 组件使用
 
-    implementation 'com.bihe0832.android:lib-android-os:+'
+```groovy
+implementation 'com.bihe0832.android:lib-android-os:+'
+```
 
 ### 最新版本
 

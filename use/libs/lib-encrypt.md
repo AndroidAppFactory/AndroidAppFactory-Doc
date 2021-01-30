@@ -12,7 +12,9 @@ AES加密，MD5计算，进制转化
 
 ### 组件使用
 
-    implementation 'com.bihe0832.android:lib-encrypt:+'
+```groovy
+implementation 'com.bihe0832.android:lib-encrypt:+'
+```
 
 ### 最新版本
 

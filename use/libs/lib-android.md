@@ -12,8 +12,9 @@
 
 ### 组件使用
 
-    implementation 'com.bihe0832.android:lib-android:+'
-
+```groovy
+implementation 'com.bihe0832.android:lib-android-os:+'
+```
 ### 最新版本
 
 [ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-android/images/download.svg) ](https://bintray.com/bihe0832/android/lib-android/_latestVersion)

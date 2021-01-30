@@ -11,7 +11,9 @@
 
 ### 组件使用
 
-    implementation 'com.bihe0832.android:lib-wrapper:+'
+```groovy
+implementation 'com.bihe0832.android:lib-wrapper:+'
+```
 
 ### 最新版本
 

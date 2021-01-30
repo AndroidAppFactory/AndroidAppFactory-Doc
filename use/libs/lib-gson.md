@@ -12,7 +12,9 @@
 
 ### 组件使用
 
-    implementation 'com.bihe0832.android:lib-gson:+'
+```groovy
+implementation 'com.bihe0832.android:lib-gson:+'
+```
 
 ### 最新版本
 

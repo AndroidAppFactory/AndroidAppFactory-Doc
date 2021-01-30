@@ -12,7 +12,9 @@
 
 ### 组件使用
 
-    implementation 'com.bihe0832.android:lib-http-advanced:+'
+```groovy
+implementation 'com.bihe0832.android:lib-http-advanced:+'
+```
 
 ### 最新版本
 

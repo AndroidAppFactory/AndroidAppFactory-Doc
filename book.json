@@ -99,7 +99,7 @@
         "prismjs/themes/prism-tomorrow.css"
       ],
       "lang": {
-        "flow": "java,kotlin"
+        "flow": "java,kotlin,groovy"
       }
     },
     "tbfed-pagefooter": {
