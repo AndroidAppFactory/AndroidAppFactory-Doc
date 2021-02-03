@@ -25,4 +25,10 @@ implementation 'com.bihe0832.android:common-photos:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### Activity的扩展
+
+- 获取无需相册权限的拍照、裁剪目录及图片
+
+- 无需相册权限的拍照
+
+- 基于 [PermissionManager](./../libs/ui/lib-permission.md#permissionmanager) 完成权限设置及检查的相册照片选择

@@ -26,4 +26,24 @@ implementation 'com.bihe0832.android:lib-permission:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+<img src="./lib-permission.png.png" width="30%"/>
+
+### PermissionDialog
+
+- 检查权限的引导弹框
+
+### PermissionManager
+
+- 添加权限弹框时的权限说明
+
+- 检查权限并弹框引导
+
+- 基于 [IntentUtils](./../noui/lib-utils-apk.md#intentutils) 打开对应权限的设置页面
+
+### PermissionsActivity
+
+- 检查权限并弹框引导的中转页
+
+### FloatPermissionWrapper
+
+- 悬浮窗权限的检查方法
