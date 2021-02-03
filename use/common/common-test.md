@@ -33,7 +33,7 @@ implementation 'com.bihe0832.android:common-test:+'
 
 ### BaseTestActivity & BaseTestFragment
 
-基础的测试列表页，同时提供打开网页、弹出输入框、跳转Activity、基于 [LibDebug](./../lib/noui/lib-debug.md) 的调试信息文本分享等基础功能
+基础的测试列表页，同时提供打开网页、弹出输入框、跳转Activity、基于 [LibDebug](./../libs/noui/lib-debug.md) 的调试信息文本分享等基础功能
 
 ### TestDebugCommonFragment
 
