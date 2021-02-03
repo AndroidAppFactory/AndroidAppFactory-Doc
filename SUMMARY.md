@@ -6,7 +6,7 @@
 * [组件使用]()
     * [组件介绍](use/summary.md)
     * [添加依赖](use/start.md)
-    * [基础组件](use/libs/lib.md)
+    * [基础组件]()
         * [基础组件集]()
             * [lib-wrapper](use/libs/combination/lib-wrapper.md)
             * [lib-uiutils](use/libs/combination/lib-uiutils.md)

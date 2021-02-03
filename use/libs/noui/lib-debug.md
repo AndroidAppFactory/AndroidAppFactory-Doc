@@ -26,4 +26,9 @@ implementation 'com.bihe0832.android:lib-debug:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### DebugTools
+
+- 支持弹框展示调试信息，弹出输入框、分享调试信息文本，复制信息到剪切板
+
+<img src="./lib-debug.png"/>
+

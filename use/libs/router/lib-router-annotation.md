@@ -26,4 +26,4 @@ implementation 'com.bihe0832.android:lib-router-annotation:+'
 
 ## 组件功能
 
-开发者无需关注，仅供 [Router](./lib-router.md) 使用
+开发者无需关注，需要与 [Router](./lib-router.md) 配套使用，使用方法参照 Router 中的 [新增路由](./lib-router.md#新增路由) 

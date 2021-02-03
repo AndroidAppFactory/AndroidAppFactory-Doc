@@ -26,4 +26,14 @@ implementation 'com.bihe0832.android:lib-text:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### TextFactoryUtils
+
+- 过滤字符串收尾的空格、引号
+
+- 根据指定分隔符，将字符串分割为字符数组
+
+- 返回指定长度的随机字符串
+
+- 返回 String 的 UTF8 格式的 Byte 数组
+
+- 返回基于 HTML 格式化的 CharSequence（支持带点击回调）
