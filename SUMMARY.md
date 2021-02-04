@@ -21,6 +21,7 @@
             * [lib-uiutils](use/libs/combination/lib-uiutils.md)
             * [lib-utils](use/libs/combination/lib-utils.md)
         * [基础功能]()
+            * [lib-aaf-tools](use/libs/noui/lib-aaf-tools.md)
             * [lib-android](use/libs/noui/lib-android.md)
             * [lib-log](use/libs/noui/lib-log.md)
             * [lib-android-os](use/libs/noui/lib-android-os.md)
@@ -65,7 +66,7 @@
             * [lib-webview](use/libs/ui/lib-webview.md)
             * [lib-lifecycle](use/libs/ui/lib-lifecycle.md)
             * [lib-permission](use/libs/ui/lib-permission.md)
-            * [lib-aaf-tools](use/libs/ui/lib-aaf-tools.md)
+            
             * [lib-immersive](use/libs/ui/lib-immersive.md)
         * [路由相关]()
             * [lib-router](use/libs/router/lib-router.md)
