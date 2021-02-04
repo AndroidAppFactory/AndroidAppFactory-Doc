@@ -52,11 +52,12 @@
 		}
 	}
 	```
+
 完整的插件使用方式，可以参考项目的事例Sample的根目录的build.gradle
 
 ### 运行插件
 
-- 在IED右侧的Gradle窗口选择others，然后点击`checkGradleDependencies`
+- 在IED右侧的Gradle窗口选择`zixie`，然后点击`checkGradleDependencies`
 
 - 直接在命令行运行`./gradlew  checkGradleDependencies`
 
