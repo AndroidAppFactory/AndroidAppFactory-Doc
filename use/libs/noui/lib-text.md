@@ -32,4 +32,4 @@ implementation 'com.bihe0832.android:lib-text:+'
 
 - 返回 String 的 UTF8 格式的 Byte 数组
 
-- 返回基于 HTML 格式化的 CharSequence（支持带点击回调）
+- 返回基于 HTML 格式化的 CharSequence（支持带点击回调），支持的HTML标签，可以参考文章 [Android Textview 对HTML 的支持](https://blog.bihe0832.com/android-textview-html.html)

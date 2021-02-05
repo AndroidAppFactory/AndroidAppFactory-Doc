@@ -34,7 +34,7 @@ implementation 'com.bihe0832.android:lib-permission:+'
 
 - 检查权限并弹框引导
 
-- 基于 [IntentUtils](./../noui/lib-utils-apk.md#intentutils) 打开对应权限的设置页面
+- 基于 [IntentUtils](./../noui/lib-utils-apk.md#intentutils) 打开对应权限的设置页面，具体权限对应的设置页面的跳转参数可以参考 [Android 权限 及设置描述信息](https://blog.bihe0832.com/android-permission.html)
 
 ### PermissionsActivity
 
