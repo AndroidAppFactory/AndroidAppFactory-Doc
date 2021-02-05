@@ -22,4 +22,13 @@ implementation 'com.bihe0832.android:common-feedback:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+基于 [腾讯吐槽](https://support.qq.com/products/290858) 通过网页打开的用户反馈模块。会自动收集基础信息。
+
+用户界面：
+
+<img src="./common-feedback/common-feedback-user.png" width="90%"/>
+
+反馈提交以后管理端界面：
+
+<img src="./common-feedback/common-feedback.png" width="90%"/>
+

@@ -32,7 +32,7 @@ Android JSBridge
 
 ## AAF的JSBridge
 
-我们的JSBridge使用shouldOverrideUrlLoading的方式实现，然后为了降低开发和维护的成本，业务JSBridge来维护各自的业务逻辑。由平台负责维护底层JSBridge在H5和终端之间的交互。
+我们的JSBridge使用shouldOverrideUrlLoading的方式实现，然后为了降低开发和维护的成本，业务JSBridge来维护各自的业务逻辑。由平台负责维护底层JSBridge在H5和终端之间的交互。具体内容可以 点击链接 [https://github.com/bihe0832/AndroidAppFactory/tree/master/LibWebview/src/main/java/com/bihe0832/android/lib/webview/jsbridge](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibWebview/src/main/java/com/bihe0832/android/lib/webview/jsbridge) 查看对应源码
 
 ### JSBridge协议
 
