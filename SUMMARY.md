@@ -80,7 +80,7 @@
 * [框架开发]()
     * [组件开发](dev/dev.md)
     * [组件发布](dev/dev.md)
-    * [组件依赖管理](https://blog-oversea.bihe0832.com/android-dev-module-denpendencies.html)
+    * [组件依赖管理](https://blog.bihe0832.com/android-dev-module-denpendencies.html)
 * [开发工具]()
     * [H5拉起Android应用](tools/android_schema.md)
     * [JSBridge](tools/android_jsbridge.md)
