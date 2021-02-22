@@ -34,5 +34,23 @@
 
 ![扫码下载](https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://cdn.bihe0832.com/app/release/ZPUZZLE_official.apk)
 
+## M3U8视频下载器
+
+### 应用简介
+    
+一款可以通过视频的M3U8文件，下载并解密合成完整视频的工具。
+
+看片神器，再也不用担心关键时刻没信号了。
+
+### 应用截图
+
+<img src="./m3u8.png" width="60%" />
+
+### 应用下载
+
+[点击下载到本地](https://cdn.bihe0832.com/app/release/ZM3U8_official.apk)
+
+![扫码下载](https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://cdn.bihe0832.com/app/release/ZM3U8_official.apk)
+
     
             
