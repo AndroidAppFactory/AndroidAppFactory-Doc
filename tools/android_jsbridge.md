@@ -210,5 +210,9 @@ call('getAppInfo', {packagename:"com.bihe0832.android.test"}, (res) => { console
 		console.log(res)
 	})
 	```
-	
+
+	详细返回截图如下：
+
+	![d4374952.png](./jsbridge_result.png)
+
 至此就完成了一个终端JSBridge接口的调试。
