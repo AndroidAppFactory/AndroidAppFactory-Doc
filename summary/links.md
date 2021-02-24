@@ -10,7 +10,7 @@
 
 - **AAF 应用事例：[https://android.bihe0832.com/samples/](https://android.bihe0832.com/samples/)**
 
-- **AAF 应用事例：[https://cdn.bihe0832.com/app/download.html](https://cdn.bihe0832.com/app/download.html)**
+- **AAF 应用事例下载地址：[https://cdn.bihe0832.com/app/download.html](https://cdn.bihe0832.com/app/download.html)**
 
 - 框架代码统计：[https://android.bihe0832.com/source/lib/index.html](https://android.bihe0832.com/source/lib/index.html)
 
