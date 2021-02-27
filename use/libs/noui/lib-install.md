@@ -22,4 +22,10 @@ implementation 'com.bihe0832.android:lib-install:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### InstallUtils
+
+- 应用安装封装，建议安装包放在 ZixieFileProvider#getZixieFilePath 的子目录
+
+- 支持OBB, Split APK等各种格式
+
+- 支持超过2G的特殊安装包，或者已解压的安装文件目录

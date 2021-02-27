@@ -24,7 +24,7 @@ implementation 'com.bihe0832.android:lib-encrypt:+'
 
 ### AESUtils
 
-- 各种类型的AES计算，结果支持返回Base64、16进制字符串等
+- 各种类型的AES（自定义向量或无向量加密）计算，结果支持返回Base64、16进制字符串等
     
 ###  HexUtils
 

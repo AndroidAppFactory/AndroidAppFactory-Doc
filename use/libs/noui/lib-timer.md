@@ -22,4 +22,10 @@ implementation 'com.bihe0832.android:lib-timer:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### TaskManager
+
+- 定时任务的添加、删除
+
+### BaseTask
+
+- 定时任务的基本信息，例如运行周期、任务内容等

@@ -22,4 +22,10 @@ implementation 'com.bihe0832.android:lib-sqlite:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### BaseDBHelper && BaseTableModel
+
+- 简单的SQLiteOpenHelper封装及ContentValues工具类封装
+
+### CommonDBManager
+
+- 基于 BaseDBHelper 和  BaseTableModel 封装的 key-value 存储数据库

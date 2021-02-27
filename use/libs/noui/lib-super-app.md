@@ -22,4 +22,18 @@ implementation 'com.bihe0832.android:lib-super-app:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### APPMarketHelper
+
+- 各种应用市场相关的信息，例如当前手机是否有安装应用商店，已安装应用商店的列表
+
+### QQHelper
+
+- QQ 相关的特殊接口，例如打开指定QQ的聊天界面、拉起指定QQ群的加群界面
+
+### WechatOfficialAccount
+
+- 引导弹框引导关注微信公众账号
+
+### SuperAPPContants
+
+- 各种超级APP 相关的应用常量定义

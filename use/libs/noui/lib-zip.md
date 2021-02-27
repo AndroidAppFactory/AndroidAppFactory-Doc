@@ -22,4 +22,10 @@ implementation 'com.bihe0832.android:lib-zip:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### ZipUtils
+
+- ZIP文件压缩与解压缩
+
+- 支持超过2G大文件
+
+- 支持不解压查看列表，解压部分文件

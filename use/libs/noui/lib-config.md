@@ -22,4 +22,8 @@ implementation 'com.bihe0832.android:lib-config:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### Config
+
+- 配置加载、读取、写入等
+
+- 支持基本数据类型、整个Map，整个 Json 
