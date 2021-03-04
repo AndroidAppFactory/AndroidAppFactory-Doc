@@ -16,7 +16,6 @@
     "rss",
     "todo",
     "redirect" ,
-    "copyright",
     "-lunr",
     "-search",
     "search-pro",
