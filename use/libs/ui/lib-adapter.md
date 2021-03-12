@@ -5,10 +5,7 @@
 [ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-adapter/images/download.svg) ](https://bintray.com/bihe0832/android/lib-adapter/_latestVersion)
 
 ## 功能简介
-
-- 简介：
-	
-	一个更丰富和强大的RecyclerAdapter框架，可以支持：
+一个更丰富和强大的RecyclerAdapter框架，可以支持：
 	
 	- 支持一个RecycleView支持多种Item样式
 	
@@ -16,7 +13,9 @@
 	
 	- 自动加载更多等
 	
-	对应GitHub为：[https://github.com/CymChad/BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)，目前已经在`BaseCard`中进行了二次封装，使用方法可以参考`TestCardActivity`。**建议后续RecycleView都使用该Adapter**。
+对应GitHub为：[https://github.com/CymChad/BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)
+
+目前已经进行了二次封装，使用方法可以参考`TestCardActivity`。**建议后续RecycleView都使用该Adapter**。
 
 ## 组件信息
 
@@ -32,4 +31,14 @@ implementation 'com.bihe0832.android:lib-adapter:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### CardBaseAdapter
+
+- 通用的RecycleView Adapter的基类
+
+### CardBaseHolder
+
+-  所有卡片的Holder都继承自该类并实现对应的view查找和内容填充
+
+### CardBaseModule
+
+- 所有卡片对应的数据都继承自该类

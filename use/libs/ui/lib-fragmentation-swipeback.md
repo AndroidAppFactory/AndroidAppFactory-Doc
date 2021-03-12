@@ -22,4 +22,4 @@ implementation 'com.bihe0832.android:lib-fragmentation-swipeback:+'
 
 ## 组件功能
 
-开发者无需关注，需要与 [LibFragmentation_swipeback](./lib-router.md) 配套使用
+参考文档：https://github.com/YoKeyword/Fragmentation/blob/master/README_CN.md

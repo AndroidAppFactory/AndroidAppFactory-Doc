@@ -22,4 +22,21 @@ implementation 'com.bihe0832.android:lib-flycotablayout:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+Android TabLayout 库，支持图标，支持红点和数字，目前有三个 TabLayout，使用时可以参考文章：https://blog.csdn.net/poorkick/article/details/70215672
+
+组件效果如下：
+
+<img src="./lib-flycotablayout.gif" width="30%"/>
+
+
+### CommonTabLayout
+
+- 没有继承HorizontalScrollView不能滑动,对于ViewPager无依赖
+
+### SlidingTabLayout
+
+- 滑动TabLayout,对于ViewPager的依赖性强
+
+### SegmentTabLayout
+
+- 不支持图标，可以看做是一个特殊的CommonTabLayout

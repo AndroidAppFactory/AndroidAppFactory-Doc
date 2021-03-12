@@ -22,4 +22,4 @@ implementation 'com.bihe0832.android:lib-refresh:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+目前已经结合更多的场景对 `LibRefresh` 进行了二次封装，开发中请参考[LibRecycleviewExt](./lib-recycleview-ext.md) 中提供的使用方式使用

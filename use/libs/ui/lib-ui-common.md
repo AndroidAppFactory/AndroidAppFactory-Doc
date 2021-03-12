@@ -22,4 +22,6 @@ implementation 'com.bihe0832.android:lib-ui-common:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### Res
+
+- 各种资源的反射获取，包括string、drawable、mipmap、layout、id、style、color等
