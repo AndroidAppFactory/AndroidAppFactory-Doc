@@ -22,4 +22,8 @@ implementation 'com.bihe0832.android:lib-immersive:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### AppCompatActivityImmersiveExt
+
+- 基于Kotlin的扩展函数添加的 AppCompatActivity 的扩展，支持开启沉浸式状态栏和导航栏，并设置颜色及文字颜色
+
+- 隐藏底部的虚拟导航栏

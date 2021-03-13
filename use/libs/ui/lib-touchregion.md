@@ -22,4 +22,6 @@ implementation 'com.bihe0832.android:lib-touchregion:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### ViewExtForTouchRegion
+
+- 基于Kotlin的扩展函数添加的 View 点击区扩展，可以指定大小，最大可以扩大到父布局的大小

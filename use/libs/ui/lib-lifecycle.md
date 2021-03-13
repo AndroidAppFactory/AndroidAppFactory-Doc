@@ -22,4 +22,14 @@ implementation 'com.bihe0832.android:lib-lifecycle:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### LifecycleHelper
+
+- 获取应用相关的基本信息，例如：应用安装时间、当前版本安装时间、上次启动时间、最后一次启动版本、应用使用天数、使用次数、当前版本使用次数、
+
+### ApplicationObserver
+
+- 获取生命周期相关的信息，例如：当前应用是否前后台、上次切后台时间、上次回到前台时间、本次启动时间
+
+### ActivityObserver
+
+- 获取UI 相关的基本信息，当前Activity，已启动ActivityList

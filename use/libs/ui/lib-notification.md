@@ -22,4 +22,10 @@ implementation 'com.bihe0832.android:lib-notification:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### DownloadNotifyManager
+
+- 下载进度的通知栏通知
+
+### NotifyManager
+
+- 简单的通知栏通知

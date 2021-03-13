@@ -22,4 +22,18 @@ implementation 'com.bihe0832.android:lib-dialog:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### CommonDialog
+
+- 通用弹框，所有组件显示可控，调用方式可以参考 `BaseTest` 里面的 `TestDialogFragment`，显示样式参考：
+
+    <img src="./../noui/lib-debug.png"/>
+
+### DownloadProgressDialog
+
+- 带进度下载弹框，调用方式可以参考 `BaseTest` 里面的 `TestDialogFragment`，显示事例可以参考：
+
+    <img src="./../../common/framework/update.png" />
+
+### LoadingDialog
+
+- Loading 对话框，分全屏和非全屏，调用方式可以参考 `BaseTest` 里面的 `TestDialogFragment`

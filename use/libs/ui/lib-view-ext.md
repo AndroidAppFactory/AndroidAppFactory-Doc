@@ -23,4 +23,18 @@ implementation 'com.bihe0832.android:lib-view-ext:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### EditTextExt
+
+- 基于Kotlin的扩展函数添加的 EditText 的扩展，设置EditView是否可编辑
+
+### ListViewExt
+
+- 基于Kotlin的扩展函数添加的 EditText 的扩展，根据listview的item个数得到其全部显示时的高度
+
+### TextViewExt
+
+- 基于Kotlin的扩展函数添加的 TextView 的扩展，为 TextView 设置四边Drawable，设置可点击的文字内容
+
+### ViewExt
+
+- 基于Kotlin的扩展函数添加的 View 的扩展，支持设置View的宽高、旋转角度等

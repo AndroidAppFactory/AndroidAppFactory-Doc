@@ -22,4 +22,10 @@ implementation 'com.bihe0832.android:lib-custom-view:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### BottomBar & BottomBarTab
+
+- 通用的Tab栏及Tab按钮
+
+### TextViewWithRedTips
+
+- 支持红点及数字红点的Textview

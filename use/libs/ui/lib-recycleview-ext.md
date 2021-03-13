@@ -22,4 +22,20 @@ implementation 'com.bihe0832.android:lib-recycleview-ext:+'
 
 ## 组件功能
 
-正在整理中，当前可以参考源码了解
+### GridDividerItemDecoration
+
+- 在Recycleview的不同元素之间添加分割边框，可以控制不同方向的边框大小及显示与隐藏
+
+### MyEasyRefreshLayout
+
+- 基于 参考[LibRefresh](./lib-refresh.md) 中提供的下拉刷新二次封装的通用Recycleview的下拉刷新
+
+### SafeGridLayoutManager、SafeLinearLayoutManager
+
+- 为了方便计算Recycleview，对标准LayoutManager 的 supportsPredictiveItemAnimations 做了重写
+
+### RecyclerViewItemActiveHelper
+
+- 计算获取当前可见区域内首个或者最后一个可见、完整可见等情况下的元素，对应的 Recycleview 需要使用上面的LayoutManager
+
+
