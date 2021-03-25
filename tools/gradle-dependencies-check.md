@@ -13,7 +13,7 @@
 	```groovy
 	buildscript {
 		repositories {
-			jcenter()
+			maven { url "https://repo1.maven.org/maven2" }
 		}
 		dependencies {
 			classpath "com.bihe0832:GradleDependenciesCheck:1.0.2"

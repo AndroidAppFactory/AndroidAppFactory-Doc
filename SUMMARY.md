@@ -76,7 +76,7 @@
             * [lib-router-annotation](use/libs/router/lib-router-annotation.md)
 * [框架使用]()
     * [运行Demo](sample/start.md)
-    * [独立开发](sample/demo.md)
+    * [独立开发](sample/customize.md)
 * [框架开发]()
     * [组件开发](dev/dev.md)
     * [组件发布](dev/dev.md)
