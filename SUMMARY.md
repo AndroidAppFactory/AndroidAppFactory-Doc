@@ -1,7 +1,7 @@
 # Summary
 
 * [关于框架](README.md)
-    * [相关链接](summary/links.md)
+    * [总体介绍](summary/links.md)
     * [应用事例](summary/samples.md)
 * [组件使用]()
     * [组件引入](use/start.md)
