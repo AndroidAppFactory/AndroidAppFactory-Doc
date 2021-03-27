@@ -29,3 +29,5 @@ implementation 'com.bihe0832.android:lib-sqlite:+'
 ### CommonDBManager
 
 - 基于 BaseDBHelper 和  BaseTableModel 封装的 key-value 存储数据库
+
+- 提供，数据插入、查询、删除的基本功能，不支持获取全部数据
