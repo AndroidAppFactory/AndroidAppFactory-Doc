@@ -2,7 +2,8 @@
 
 ![LibInstall](https://img.shields.io/badge/AndroidAppFactory-LibInstall-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibInstall-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibInstall)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-install/images/download.svg) ](https://bintray.com/bihe0832/android/lib-install/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-install) ](https://search.maven.org/artifact/com.bihe0832.android/lib-install)
+
 
 ## 功能简介
 

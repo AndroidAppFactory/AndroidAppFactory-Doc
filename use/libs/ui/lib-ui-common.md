@@ -2,7 +2,7 @@
 
 ![LibCommonUIUtils](https://img.shields.io/badge/AndroidAppFactory-LibCommonUIUtils-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibCommonUIUtils-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibCommonUIUtils)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-ui-common/images/download.svg) ](https://bintray.com/bihe0832/android/lib-ui-common/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-ui-common) ](https://search.maven.org/artifact/com.bihe0832.android/lib-ui-common)
 
 ## 功能简介
 

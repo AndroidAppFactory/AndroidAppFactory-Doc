@@ -2,7 +2,7 @@
 
 ![LibRefresh](https://img.shields.io/badge/AndroidAppFactory-LibRefresh-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibRefresh-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibRefresh)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-refresh/images/download.svg) ](https://bintray.com/bihe0832/android/lib-refresh/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-refresh)](https://search.maven.org/artifact/com.bihe0832.android/lib-refresh)
 
 ## 功能简介
 

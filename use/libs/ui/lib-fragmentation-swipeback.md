@@ -2,7 +2,8 @@
 
 ![LibFragmentation_swipeback](https://img.shields.io/badge/AndroidAppFactory-LibFragmentation_swipeback-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibFragmentation_swipeback-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibFragmentation_swipeback)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-fragmentation-swipeback/images/download.svg) ](https://bintray.com/bihe0832/android/lib-fragmentation-swipeback/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-fragmentation-swipeback)](https://search.maven.org/artifact/com.bihe0832.android/lib-fragmentation-swipeback)
+
 
 ## 功能简介
 

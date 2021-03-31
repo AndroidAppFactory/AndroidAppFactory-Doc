@@ -2,7 +2,7 @@
 
 ![Framework](https://img.shields.io/badge/AndroidAppFactory-Framework-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-Framework-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/Framework)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/framework/images/download.svg) ](https://bintray.com/bihe0832/android/framework/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/framework) ](https://search.maven.org/artifact/com.bihe0832.android/framework)
 
 ## 功能简介
 

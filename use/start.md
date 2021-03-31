@@ -24,7 +24,7 @@ dependencies {
 ```
 **备注：所有的组件都可以单独使用，同时为了方便开发，对于基础组件直接添加了LibWrapper集中管理所有组件，建议开发中直接引用** 
 
-![LibWrapper](https://img.shields.io/badge/AndroidAppFactory-LibWrapper-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-wrapper/images/download.svg) ](https://bintray.com/bihe0832/android/lib-wrapper/_latestVersion)
+![LibWrapper](https://img.shields.io/badge/AndroidAppFactory-LibWrapper-brightgreen)[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-wrapper) ](https://search.maven.org/artifact/com.bihe0832.android/lib-wrapper)
 
 
 ## 调用

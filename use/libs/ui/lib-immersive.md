@@ -2,7 +2,7 @@
 
 ![LibImmersive](https://img.shields.io/badge/AndroidAppFactory-LibImmersive-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibImmersive-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibImmersive)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-immersive/images/download.svg) ](https://bintray.com/bihe0832/android/lib-immersive/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-immersive)](https://search.maven.org/artifact/com.bihe0832.android/lib-immersive)
 
 ## 功能简介
 

@@ -2,7 +2,7 @@
 
 ![LibRecycleviewExt](https://img.shields.io/badge/AndroidAppFactory-LibRecycleviewExt-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibRecycleviewExt-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibRecycleviewExt)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-recycleview-ext/images/download.svg) ](https://bintray.com/bihe0832/android/lib-recycleview-ext/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-recycleview-ext)](https://search.maven.org/artifact/com.bihe0832.android/lib-recycleview-ext)
 
 ## 功能简介
 

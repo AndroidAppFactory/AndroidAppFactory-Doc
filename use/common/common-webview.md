@@ -2,8 +2,7 @@
 
 ![CommonWebview](https://img.shields.io/badge/AndroidAppFactory-CommonWebview-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-CommonWebview-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/CommonWebview)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/common-webview/images/download.svg) ](https://bintray.com/bihe0832/android/common-webview/_latestVersion)
-
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-webview) ](https://search.maven.org/artifact/com.bihe0832.android/common-webview)
 
 ## 功能简介
 

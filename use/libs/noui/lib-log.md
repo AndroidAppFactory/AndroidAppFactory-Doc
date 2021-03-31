@@ -2,7 +2,7 @@
 
 ![LibLog](https://img.shields.io/badge/AndroidAppFactory-LibLog-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibLog-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibLog)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-log/images/download.svg) ](https://bintray.com/bihe0832/android/lib-log/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-log) ](https://search.maven.org/artifact/com.bihe0832.android/lib-log)
 
 ## 功能简介
 

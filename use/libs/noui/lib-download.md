@@ -2,7 +2,7 @@
 
 ![LibDownload](https://img.shields.io/badge/AndroidAppFactory-LibDownload-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibDownload-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibDownload)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-download/images/download.svg) ](https://bintray.com/bihe0832/android/lib-download/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-download) ](https://search.maven.org/artifact/com.bihe0832.android/lib-download)
 
 ## 功能简介
 

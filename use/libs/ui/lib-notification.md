@@ -2,7 +2,8 @@
 
 ![LibNotification](https://img.shields.io/badge/AndroidAppFactory-LibNotification-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibNotification-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibNotification)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-notification/images/download.svg) ](https://bintray.com/bihe0832/android/lib-notification/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-notification)](https://search.maven.org/artifact/com.bihe0832.android/lib-notification)
+
 
 ## 功能简介
 

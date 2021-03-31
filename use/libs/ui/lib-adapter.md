@@ -2,7 +2,7 @@
 
 ![LibAdapter](https://img.shields.io/badge/AndroidAppFactory-LibAdapter-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibAdapter-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibAdapter)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-adapter/images/download.svg) ](https://bintray.com/bihe0832/android/lib-adapter/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-adapter) ](https://search.maven.org/artifact/com.bihe0832.android/lib-adapter)
 
 ## 功能简介
 一个更丰富和强大的RecyclerAdapter框架，可以支持：

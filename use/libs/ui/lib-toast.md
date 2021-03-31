@@ -2,7 +2,7 @@
 
 ![LibToast](https://img.shields.io/badge/AndroidAppFactory-LibToast-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibToast-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibToast)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-toast/images/download.svg) ](https://bintray.com/bihe0832/android/lib-toast/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-toast)](https://search.maven.org/artifact/com.bihe0832.android/lib-toast)
 
 ## 功能简介
 

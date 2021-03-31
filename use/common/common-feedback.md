@@ -2,7 +2,7 @@
 
 ![CommonFeedback](https://img.shields.io/badge/AndroidAppFactory-CommonFeedback-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-CommonFeedback-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/CommonFeedback)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/common-feedback/images/download.svg) ](https://bintray.com/bihe0832/android/common-feedback/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-feedback) ](https://search.maven.org/artifact/com.bihe0832.android/common-feedback)
 
 ## 功能简介
 

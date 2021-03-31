@@ -2,7 +2,7 @@
 
 ![LibSqlite](https://img.shields.io/badge/AndroidAppFactory-LibSqlite-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibSqlite-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibSqlite)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-sqlite/images/download.svg) ](https://bintray.com/bihe0832/android/lib-sqlite/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-sqlite) ](https://search.maven.org/artifact/com.bihe0832.android/lib-sqlite)
 
 ## 功能简介
 

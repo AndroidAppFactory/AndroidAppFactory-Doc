@@ -2,7 +2,7 @@
 
 ![LibPermission](https://img.shields.io/badge/AndroidAppFactory-LibPermission-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibPermission-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibPermission)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-permission/images/download.svg) ](https://bintray.com/bihe0832/android/lib-permission/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-permission)](https://search.maven.org/artifact/com.bihe0832.android/lib-permission)
 
 ## 功能简介
 

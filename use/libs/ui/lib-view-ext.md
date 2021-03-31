@@ -2,8 +2,7 @@
 
 ![LibViewExt](https://img.shields.io/badge/AndroidAppFactory-LibViewExt-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibViewExt-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibViewExt)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-view-ext/images/download.svg) ](https://bintray.com/bihe0832/android/lib-view-ext/_latestVersion)
-
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-view-ext)](https://search.maven.org/artifact/com.bihe0832.android/lib-view-ext)
 
 ## 功能简介
 

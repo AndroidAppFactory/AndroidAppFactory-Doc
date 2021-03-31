@@ -2,7 +2,7 @@
 
 ![CommonPraise](https://img.shields.io/badge/AndroidAppFactory-CommonPraise-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-CommonPraise-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/CommonPraise)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/common-praise/images/download.svg) ](https://bintray.com/bihe0832/android/common-praise/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-praise) ](https://search.maven.org/artifact/com.bihe0832.android/common-praise)
 
 ## 功能简介
 

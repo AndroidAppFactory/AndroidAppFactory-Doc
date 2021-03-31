@@ -2,7 +2,8 @@
 
 ![LibCustomView](https://img.shields.io/badge/AndroidAppFactory-LibCustomView-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibCustomView-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibCustomView)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-custom-view/images/download.svg) ](https://bintray.com/bihe0832/android/lib-custom-view/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-custom-view) ](https://search.maven.org/artifact/com.bihe0832.android/lib-custom-view)
+
 
 ## 功能简介
 

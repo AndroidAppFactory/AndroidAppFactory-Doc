@@ -2,7 +2,7 @@
 
 ![LibTimer](https://img.shields.io/badge/AndroidAppFactory-LibTimer-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibTimer-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibTimer)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-timer/images/download.svg) ](https://bintray.com/bihe0832/android/lib-timer/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-timer) ](https://search.maven.org/artifact/com.bihe0832.android/lib-timer)
 
 ## 功能简介
 

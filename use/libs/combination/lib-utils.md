@@ -2,7 +2,8 @@
 
 ![LibUtils](https://img.shields.io/badge/AndroidAppFactory-LibUtils-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibUtils-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibUtils)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-utils/images/download.svg) ](https://bintray.com/bihe0832/android/lib-utils/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-utils) ](https://search.maven.org/artifact/com.bihe0832.android/lib-utils)
+
 
 ## 功能简介
 

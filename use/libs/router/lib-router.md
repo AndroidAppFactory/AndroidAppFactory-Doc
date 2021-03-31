@@ -2,7 +2,8 @@
 
 ![Router](https://img.shields.io/badge/AndroidAppFactory-Router-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-Router-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/Router)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-router/images/download.svg) ](https://bintray.com/bihe0832/android/lib-router/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-router) ](https://search.maven.org/artifact/com.bihe0832.android/lib-router)
+
 
 ## 功能简介
 

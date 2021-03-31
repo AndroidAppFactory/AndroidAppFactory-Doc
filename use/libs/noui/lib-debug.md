@@ -2,7 +2,7 @@
 
 ![LibDebug](https://img.shields.io/badge/AndroidAppFactory-LibDebug-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibDebug-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibDebug)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-debug/images/download.svg) ](https://bintray.com/bihe0832/android/lib-debug/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-debug) ](https://search.maven.org/artifact/com.bihe0832.android/lib-debug)
 
 ## 功能简介
 

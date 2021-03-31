@@ -2,7 +2,7 @@
 
 ![LibAAF](https://img.shields.io/badge/AndroidAppFactory-LibAAF-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibAAF-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibAAF)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-aaf-tools/images/download.svg) ](https://bintray.com/bihe0832/android/lib-aaf-tools/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-aaf-tools) ](https://search.maven.org/artifact/com.bihe0832.android/lib-aaf-tools)
 
 ## 功能简介
 

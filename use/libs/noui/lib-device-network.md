@@ -2,7 +2,7 @@
 
 ![LibDeviceNetwork](https://img.shields.io/badge/AndroidAppFactory-LibDeviceNetwork-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibDeviceNetwork-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibDeviceNetwork)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-device-network/images/download.svg) ](https://bintray.com/bihe0832/android/lib-device-network/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-device-network) ](https://search.maven.org/artifact/com.bihe0832.android/lib-device-network)
 
 ## 功能简介
 

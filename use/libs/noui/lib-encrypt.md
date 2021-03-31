@@ -2,7 +2,8 @@
 
 ![LibEncrypt](https://img.shields.io/badge/AndroidAppFactory-LibEncrypt-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibEncrypt-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibEncrypt)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-encrypt/images/download.svg) ](https://bintray.com/bihe0832/android/lib-encrypt/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-encrypt) ](https://search.maven.org/artifact/com.bihe0832.android/lib-encrypt)
+
 
 ## 功能简介
 

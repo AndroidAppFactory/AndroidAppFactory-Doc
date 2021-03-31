@@ -2,7 +2,8 @@
 
 ![CommonSplash](https://img.shields.io/badge/AndroidAppFactory-CommonSplash-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-CommonSplash-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/CommonSplash)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/common-splash/images/download.svg) ](https://bintray.com/bihe0832/android/common-splash/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-splash) ](https://search.maven.org/artifact/com.bihe0832.android/common-splash)
+
 
 ## 功能简介
 

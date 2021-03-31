@@ -2,7 +2,8 @@
 
 ![LibTouchRegion](https://img.shields.io/badge/AndroidAppFactory-LibTouchRegion-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibTouchRegion-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibTouchRegion)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-touchregion/images/download.svg) ](https://bintray.com/bihe0832/android/lib-touchregion/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-touchregion)](https://search.maven.org/artifact/com.bihe0832.android/lib-touchregion)
+
 
 ## 功能简介
 

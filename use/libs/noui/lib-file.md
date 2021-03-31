@@ -2,7 +2,7 @@
 
 ![LibFile](https://img.shields.io/badge/AndroidAppFactory-LibFile-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibFile-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibFile)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-file/images/download.svg) ](https://bintray.com/bihe0832/android/lib-file/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-file) ](https://search.maven.org/artifact/com.bihe0832.android/lib-file)
 
 ## 功能简介
 

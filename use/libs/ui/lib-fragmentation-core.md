@@ -2,7 +2,8 @@
 
 ![LibFragmentation_core](https://img.shields.io/badge/AndroidAppFactory-LibFragmentation_core-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibFragmentation_core-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibFragmentation_core)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-fragmentation-core/images/download.svg) ](https://bintray.com/bihe0832/android/lib-fragmentation-core/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-fragmentation-core)](https://search.maven.org/artifact/com.bihe0832.android/lib-fragmentation-core)
+
 
 ## 功能简介
 

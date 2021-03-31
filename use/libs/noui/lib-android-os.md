@@ -2,7 +2,7 @@
 
 ![LibOS](https://img.shields.io/badge/AndroidAppFactory-LibOS-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-LibOS-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibOS)
-[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-android-os/images/download.svg) ](https://bintray.com/bihe0832/android/lib-android-os/_latestVersion)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-android-os) ](https://search.maven.org/artifact/com.bihe0832.android/lib-android-os)
 
 ## 功能简介
 
