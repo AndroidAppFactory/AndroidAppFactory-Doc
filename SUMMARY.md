@@ -68,8 +68,8 @@
             * [lib-webview](use/libs/ui/lib-webview.md)
             * [lib-lifecycle](use/libs/ui/lib-lifecycle.md)
             * [lib-permission](use/libs/ui/lib-permission.md)
-            
             * [lib-immersive](use/libs/ui/lib-immersive.md)
+            * [lib-file-select](use/libs/ui/lib-file-select.md)
         * [路由相关]()
             * [lib-router](use/libs/router/lib-router.md)
             * [lib-router-compiler](use/libs/router/lib-router-compiler.md)

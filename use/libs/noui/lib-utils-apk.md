@@ -43,6 +43,6 @@ implementation 'com.bihe0832.android:lib-utils-apk:+'
 
 - 启动一个Intent（新建Task方式）
 
-- 打开应用的指定设置（兼容MIUI、魅族、华为）、如果应用没有，打开手机的指定设置
+- 打开指定的应用设置（兼容MIUI、魅族、华为）、如果应用没有，打开手机设置
 
 - 分享文本信息
