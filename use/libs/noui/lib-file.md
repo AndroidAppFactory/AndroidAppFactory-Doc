@@ -32,6 +32,8 @@ implementation 'com.bihe0832.android:lib-file:+'
 
 - 删除文件或文件夹、高速复制文件或文件夹
 
+- 使用手机上的第三方应用查看或者分享指定文件
+
 ### ZixieFileProvider
 
 - 封装的文件访问用的Provider
