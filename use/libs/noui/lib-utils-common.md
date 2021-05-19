@@ -47,3 +47,7 @@ implementation 'com.bihe0832.android:lib-utils-common:+'
 - 各种安全的类型转换，如 string -> int
 
 - 数组、列表获取指定index的安全类型
+
+### LimitedQueue
+
+- 定长的先进先出数据队列
