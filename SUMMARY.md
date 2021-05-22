@@ -48,6 +48,7 @@
             * [lib-text](use/libs/noui/lib-text.md)
             * [lib-super-app](use/libs/noui/lib-super-app.md)
             * [lib-debug](use/libs/noui/lib-debug.md)
+            * [lib-ipc](use/libs/noui/lib-ipc.md)
         * [UI相关]()
             * [lib-ui-common](use/libs/ui/lib-ui-common.md)
             * [lib-fragmentation-core](use/libs/ui/lib-fragmentation-core.md)
