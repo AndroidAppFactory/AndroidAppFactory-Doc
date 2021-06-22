@@ -26,7 +26,7 @@ implementation 'com.bihe0832.android:common-webview:+'
 
 - 封装好的通用的 [Webview](./../libs/ui/lib-webview.md) 的Fragment，支持：
 
-    下拉刷新，请求追加业务参数，错误页面及错误重试，非 Http 协议使用 Intent 唤起，获取网页标题
+    下拉刷新，请求追加业务参数，错误页面及错误重试，非 Http 协议使用 Intent 唤起，获取网页标题，将终端的前后台切换响应到H5
 
 - 支持Jsbridge，使用方式可以参考 [JSBridge](./../../tools/android_jsbridge.md)
 
