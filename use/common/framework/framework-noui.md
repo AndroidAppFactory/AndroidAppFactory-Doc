@@ -49,6 +49,10 @@ implementation 'com.bihe0832.android:framework:+'
 
     打印日志到指定文件，并支持打开
 
+- LoggerTrace
+
+    打点记录操作耗时，可最终批量展示
+
 ### 常量定义
 
 - Constants
