@@ -6,6 +6,7 @@
 * [组件使用]()
     * [组件引入](use/start.md)
     * [公共组件信息]()
+        * [common-wrapper](use/common/common-wrapper.md)
         * [框架组件](use/common/framework.md)
             * [应用更新](use/common/framework/framework-update.md)
             * [非UI的核心模块](use/common/framework/framework-noui.md)
