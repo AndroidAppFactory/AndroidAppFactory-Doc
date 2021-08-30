@@ -27,6 +27,3 @@ implementation 'com.bihe0832.android:lib-custom-view:+'
 
 - 通用的Tab栏及Tab按钮
 
-### TextViewWithRedTips
-
-- 支持红点及数字红点的Textview
