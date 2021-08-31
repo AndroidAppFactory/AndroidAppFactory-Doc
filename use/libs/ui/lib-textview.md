@@ -29,15 +29,42 @@ implementation 'com.bihe0832.android:lib-textview:+'
 
 ### ExpandableTextView
 
-- 可扩展TextView，用于扩展收起、展开、固定行尾字符等，具体的使用事例，可以参考 BaseTest 中 com.bihe0832.android.base.test.textview 下面的代码
+- 可扩展TextView，用于扩展收起、展开、固定行尾字符等，具体的使用事例，可以参考 BaseTest 中 com.bihe0832.android.base.test.textview 下面的代码。支持自定义的内容有：
+
+    - etv_MaxLinesOnShrink: 收缩时的最大行数 
+
+    - etv_EllipsisHint：省略符号，默认为 to_ellipsis_hint
+
+    - etv_EllipsisHintShow: 否显示缩略的文案
+
+    - etv_ToExpandHint: 展开的文案，默认为 to_expand_hint
+
+    - etv_ToExpandHintColor: 展开文案的颜色
+
+    - etv_ToExpandHintShow: 是否显示展开的文案
+
+    - etv_ToExpandTypeface: 展开文案的效果
+
+    - etv_ToShrinkHint: 收缩的文案，默认为 to_shrink_hint
+
+    - etv_ToShrinkHintColor: 收起文案的颜色
+
+    - etv_ToShrinkHintShow: 是否显示收缩的文案
+
+    - etv_ToShrinkTypeface: 收缩文案的效果
+
+    - etv_EnableToggle: 点击文本主体是否支持切换
+
+    - etv_InitState:文案的初始状态
+
 
 #### CommentTextView
 
-- 文末追加型Textview
+- 基于 ExpandableTextView 优化的文末追加型Textview
 
 #### FoldedTextView
 
-- 收起展开型TextView
+- 基于 ExpandableTextView 优化的收起展开型TextView
 
 ### TextViewExt
 
