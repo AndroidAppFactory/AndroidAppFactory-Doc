@@ -50,19 +50,3 @@ implementation 'com.bihe0832.android:framework:+'
 - CommonMainFragment
 
     一款支持底部Tab的 通用Fragment的页面
-
-### 通用列表
-
-- BaseListActivity & BaseListFragment
-
-    一款通用的包含一个recycleView的列表页，目前支持：下拉刷新、加载更多、添加header、列表为空展示空页面等
-
-- CardItemForCommonList
-
-    BaseListActivity & BaseListFragment 中的UI卡片的数据结构
-
-- CommonListActivity & CommonListFragment
-
-    对于 BaseListActivity & BaseListFragment 的进一步封装，分别使用了LibRefresh 提供的两种下拉刷新方式
-
-    使用事例，可以参照：https://github.com/bihe0832/AndroidAppFactory/tree/master/BaseTest/src/main/java/com/bihe0832/android/base/test/card/

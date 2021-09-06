@@ -18,6 +18,7 @@
         * [common-webview](use/common/common-webview.md)
         * [common-feedback](use/common/common-feedback.md)
         * [common-praise](use/common/common-praise.md)
+        * [common-list](use/common/common-list.md)
     * [基础组件信息]()
         * [基础组件集]()
             * [lib-wrapper](use/libs/combination/lib-wrapper.md)
