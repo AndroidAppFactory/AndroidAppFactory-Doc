@@ -34,15 +34,22 @@ implementation 'com.bihe0832.android:lib-gson:+'
 
 - 对于特殊字段，支持不解析，直接返回String（Gson）添加 ` @JsonAdapter(RawStringJsonAdapter.class)` 设置字段不解析。例如：
 
+- 对于Bollean，支持添加 ` @JsonAdapter(BooleanTypeAdapter.class)` 设置解析。例如：
+
+
 ```java
 public class JsonTest {
 
 	@SerializedName("key")
 	private int key;
 
-	@SerializedName("value")
+	@SerializedName("value1")
 	@JsonAdapter(RawStringJsonAdapter.class)
-	private String data = "";
+	private String data1 = "";
+
+	@SerializedName("value2")
+	@JsonAdapter(BooleanTypeAdapter.class)
+	private boolean data2 = false;
 
 	public int getKey(){
 		return key;
@@ -50,6 +57,15 @@ public class JsonTest {
 
 	public void setKey(int key) {
 		this.key = key;
+	}
+
+	@Override
+	public String toString() {
+		return "JsonTest{" +
+				"key=" + key +
+				", data1='" + data1 + '\'' +
+				", data2=" + data2 +
+				'}';
 	}
 }
 ```

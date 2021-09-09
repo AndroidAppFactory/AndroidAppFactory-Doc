@@ -28,3 +28,7 @@ implementation 'com.bihe0832.android:lib-debug:+'
 
 <img src="./lib-debug.png"/>
 
+### DebugLogTips
+
+- 支持悬浮窗形式滚动列表，展示调试信息，**使用前需要初始化**。
+

@@ -26,19 +26,21 @@ implementation 'com.bihe0832.android:lib-permission:+'
 
 ### PermissionDialog
 
-- 检查权限的引导弹框
+- 检查权限的引导弹框、可配合PermissionsActivity 继承后实现自定义界面
+
+- 支持同时申请单一权限或者多个权限
 
 ### PermissionManager
 
 - 添加权限弹框时的权限说明
 
-- 检查权限并弹框引导
+- 检查权限并弹框引导，结果回调更精细、支持相同权限不同场景的文案配置
 
 - 基于 [IntentUtils](./../noui/lib-utils-apk.md#intentutils) 打开对应权限的设置页面，具体权限对应的设置页面的跳转参数可以参考 [Android 权限 及设置描述信息](https://blog.bihe0832.com/android-permission.html)
 
 ### PermissionsActivity
 
-- 检查权限并弹框引导的中转页
+- 检查权限并弹框引导的中转页、可继承并定制
 
 ### FloatPermissionWrapper
 

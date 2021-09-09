@@ -74,6 +74,7 @@
             * [lib-immersive](use/libs/ui/lib-immersive.md)
             * [lib-file-select](use/libs/ui/lib-file-select.md)
             * [lib-textview](use/libs/ui/lib-textview.md)
+            * [lib-textview](use/libs/ui/lib-textview.md)
         * [路由相关]()
             * [lib-router](use/libs/router/lib-router.md)
             * [lib-router-compiler](use/libs/router/lib-router-compiler.md)
