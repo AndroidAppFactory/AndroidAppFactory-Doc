@@ -6,7 +6,13 @@
 
 ## 功能简介
 
-单Activity ＋ 多Fragment 模式的Fragment管理框架。对应GitHub：https://github.com/YoKeyword/Fragmentation 目前已经做了二次封装
+单Activity ＋ 多Fragment 模式的Fragment管理框架。对应GitHub：https://github.com/YoKeyword/Fragmentation 目前已经做了二次封装。使用可以参考下面几篇文章：
+
+- [Fragment全解析系列（一）：那些年踩过的坑](http://www.jianshu.com/p/d9143a92ad94)
+
+- [Fragment全解析系列（二）：正确的使用姿势](http://www.jianshu.com/p/fd71d65f0ec6)
+
+- [Fragmentation Wiki](https://github.com/YoKeyword/Fragmentation/wiki)
 
 ## 组件信息
 
