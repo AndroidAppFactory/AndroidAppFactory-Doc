@@ -42,6 +42,10 @@ implementation 'com.bihe0832.android:lib-utils-common:+'
 
 - 各式时间转换，获取各种格式的时间，时间比较文字结果（几秒前，几分钟前）
 
+### TimeUtil
+
+- 各式时间转换，获取各种格式的时间，时间比较文字结果（几秒前，几分钟前）
+
 ### ConvertUtils
 
 - 各种安全的类型转换，如 string -> int

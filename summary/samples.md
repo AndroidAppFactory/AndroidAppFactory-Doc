@@ -12,9 +12,9 @@
 
 ### 应用下载
 
-[点击下载到本地](https://cdn.bihe0832.com/app/release/ZAPK_official.apk)
+[点击下载到本地](https://android.bihe0832.com/app/release/ZAPK_official.apk)
 
-![扫码下载](https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://cdn.bihe0832.com/app/release/ZAPK_official.apk)
+![扫码下载](https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZAPK_official.apk)
  
 ## 拼图游戏
 
@@ -30,9 +30,9 @@
 
 ### 应用下载
 
-[点击下载到本地](https://cdn.bihe0832.com/app/release/ZPUZZLE_official.apk)
+[点击下载到本地](https://android.bihe0832.com/app/release/ZPUZZLE_official.apk)
 
-![扫码下载](https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://cdn.bihe0832.com/app/release/ZPUZZLE_official.apk)
+![扫码下载](https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZPUZZLE_official.apk)
 
 ## M3U8视频下载器
 
@@ -48,9 +48,9 @@
 
 ### 应用下载
 
-[点击下载到本地](https://cdn.bihe0832.com/app/release/ZM3U8_official.apk)
+[点击下载到本地](https://android.bihe0832.com/app/release/ZM3U8_official.apk)
 
-![扫码下载](https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://cdn.bihe0832.com/app/release/ZM3U8_official.apk)
+![扫码下载](https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZM3U8_official.apk)
 
     
             
