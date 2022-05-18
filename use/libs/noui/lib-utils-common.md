@@ -44,7 +44,7 @@ implementation 'com.bihe0832.android:lib-utils-common:+'
 
 ### TimeUtil
 
-- 各式时间转换，获取各种格式的时间，时间比较文字结果（几秒前，几分钟前）
+- 比较时间格式化，例如将71秒的时长转化为00:01:11等
 
 ### ConvertUtils
 

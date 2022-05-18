@@ -29,4 +29,8 @@ implementation 'com.bihe0832.android:lib-notification:+'
 
 ### NotifyManager
 
-- 简单的通知栏通知
+- 简单的通知栏通知、检查通知栏权限，拉起授权页面等
+
+### RefreshNotifyManager
+
+- 支持内容不断刷新的通知栏

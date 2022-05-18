@@ -35,6 +35,8 @@ implementation 'com.bihe0832.android:lib-utils-apk:+'
 
 - 获取应用签名文件的MD5、指纹
 
+- 通用的版本对比接口，支持字符版本名的对比
+
 ### IntentUtils
 
 - 根据第三方 Schema 拉起应用 

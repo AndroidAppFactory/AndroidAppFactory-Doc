@@ -41,6 +41,8 @@ implementation 'com.bihe0832.android:framework:+'
 
     userVisibleHint完成权限检查、子Fragment自动设置userVisibleHint、onActivityResult自动回调
 
+    定义通用的获取布局、解析intent、初始化View、初始化数据等接口
+
 ### 通用主UI
 
 - CommonActivity

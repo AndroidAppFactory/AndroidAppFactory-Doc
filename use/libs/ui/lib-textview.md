@@ -69,3 +69,14 @@ implementation 'com.bihe0832.android:lib-textview:+'
 ### TextViewExt
 
 - 基于Kotlin的扩展函数添加的 TextView 的扩展，为 TextView 设置四边Drawable，设置可点击的文字内容
+
+
+#### TextView 扩展
+
+通过 TextView 的基础扩展，可以更方便的展示更复杂的文字组合
+
+- ZixieTextClickableSpan：点击区扩展
+
+- ZixieTextImageSpan：图标扩展
+
+- ZixieTextRadiusBackgroundSpan：圆角背景扩展

@@ -35,5 +35,6 @@ implementation 'com.bihe0832.android:lib-encrypt:+'
 
 - 计算内容的MD5，支持文本、文件（全文、指定片段）、字符数组、输入流  
 
+### GzipUtils
 
-
+- Gzip 的压缩与解压

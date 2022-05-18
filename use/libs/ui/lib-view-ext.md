@@ -22,6 +22,10 @@ implementation 'com.bihe0832.android:lib-view-ext:+'
 
 ## 组件功能
 
+### 通用资源定义
+
+    定义了 state_checked、state_pressed、state_focused等资源样式
+
 ### EditTextExt
 
 - 基于Kotlin的扩展函数添加的 EditText 的扩展，设置EditView是否可编辑

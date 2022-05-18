@@ -38,3 +38,17 @@ implementation 'com.bihe0832.android:lib-dialog:+'
 ### LoadingDialog
 
 - Loading 对话框，分全屏和非全屏，调用方式可以参考 `BaseTest` 里面的 `TestDialogFragment`
+
+### RadioDialog
+
+- 支持单选框的Dialog，调用方式可以参考 `BaseTest` 里面的 `TestDialogFragment`，显示事例可以参考：
+
+    <img src="./lib-dialog-radio.png" />
+
+### PopMenu
+
+    - 在指定View周围弹出一个带图标的菜单列表（类似右上角），调用方式可以参考 `BaseTest` 里面的 `TestTextView`
+
+### PopupList
+
+    - 长按以后，在上方弹出一排并排操作（类似微信长按消息内容），调用方式可以参考 `BaseTest` 里面的 `TestTextView`

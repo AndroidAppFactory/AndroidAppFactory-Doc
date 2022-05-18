@@ -25,3 +25,14 @@ implementation 'com.bihe0832.android:lib-aaf-tools:+'
 ### AAFException
 
 - AAF 相关的异常
+
+### AAFDataCallback
+
+- AAF 通用的数据回调
+
+```
+    class AAFDataCallback<T> {
+        fun onError(errorCode: kotlin.Int, msg: kotlin.String)
+        fun onSuccess(result: T?)
+    }
+```

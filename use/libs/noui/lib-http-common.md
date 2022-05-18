@@ -30,6 +30,10 @@ implementation 'com.bihe0832.android:lib-http-common:+'
 
 - 根据是否有data 信息 确定使用 GET 还是 POST
 
+- 支持文件上传
+
+- 支持Gzip下载
+
 <!-- ## 事例代码
 
 [https://github.com/bihe0832/AndroidAppFactory/tree/master/APPTest/src/main/java/com/bihe0832/android/test/module/request/TestHttpActivity.kt](https://github.com/bihe0832/AndroidAppFactory/tree/master/APPTest/src/main/java/com/bihe0832/android/test/module/request/TestHttpActivity.kt) -->
