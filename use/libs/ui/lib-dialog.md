@@ -23,6 +23,10 @@ implementation 'com.bihe0832.android:lib-dialog:+'
 
 ## 组件功能
 
+### DialogUtils
+
+- 对框架提供的Dialog的二次封装，提供了带输入框、简单的确认弹框、简单的Alert弹框的调用方法
+
 ### CommonDialog
 
 - 通用弹框，所有组件显示可控，调用方式可以参考 `BaseTest` 里面的 `TestDialogFragment`，显示样式参考：
@@ -44,6 +48,10 @@ implementation 'com.bihe0832.android:lib-dialog:+'
 - 支持单选框的Dialog，调用方式可以参考 `BaseTest` 里面的 `TestDialogFragment`，显示事例可以参考：
 
     <img src="./lib-dialog-radio.png" />
+
+### InputDialog
+
+- 支持输入的Dialog，基本用法同CommonDialog，仅增加一个输入框
 
 ### PopMenu
 

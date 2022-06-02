@@ -22,6 +22,10 @@ implementation 'com.bihe0832.android:lib-image:+'
 
 ## 组件功能
 
+### CheckedEnableImageView
+
+- 支持点击状态的ImageView
+
 ### BitmapUtil
 
 - Bitmap相关的各种处理

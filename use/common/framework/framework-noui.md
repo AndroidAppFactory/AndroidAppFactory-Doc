@@ -31,7 +31,7 @@ implementation 'com.bihe0832.android:framework:+'
     
     获取当前设备ID及屏幕宽高、通用文件目录等信息
 
-    根据应用前后台等弹出各种类型的 Toast信息，获取当前的Activity，应用彻底退出的逻辑
+    根据应用前后台等弹出各种类型的 Toast信息，获取当前的Activity，应用彻底退出、应用重启等逻辑
     
     提供在子线程初始化模块的接口
 

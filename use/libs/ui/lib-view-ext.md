@@ -36,4 +36,4 @@ implementation 'com.bihe0832.android:lib-view-ext:+'
 
 ### ViewExt
 
-- 基于Kotlin的扩展函数添加的 View 的扩展，支持设置View的宽高、旋转角度等
+- 基于Kotlin的扩展函数添加的 View 的扩展，支持设置View的宽高、旋转角度、获取View附着的Activity等

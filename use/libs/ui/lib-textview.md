@@ -66,6 +66,10 @@ implementation 'com.bihe0832.android:lib-textview:+'
 
 - 基于 ExpandableTextView 优化的收起展开型TextView
 
+### TextViewWithHTML
+
+- 默认就支持HTML的TextView
+
 ### TextViewExt
 
 - 基于Kotlin的扩展函数添加的 TextView 的扩展，为 TextView 设置四边Drawable，设置可点击的文字内容
