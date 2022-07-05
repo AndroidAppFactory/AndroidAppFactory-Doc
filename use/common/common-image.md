@@ -25,3 +25,8 @@ implementation 'com.bihe0832.android:common-image:+'
 ### BlurTransformation
 
 Glide 支持高斯模糊的转换方式
+
+
+### HeadIconBuildFactory
+
+基于 HeadIconBuilder 的，支持使用缓存的扩展类
