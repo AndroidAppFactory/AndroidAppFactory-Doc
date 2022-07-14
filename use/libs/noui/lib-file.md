@@ -38,6 +38,8 @@ implementation 'com.bihe0832.android:lib-file:+'
 
 - 检查文件类型是否为二进制文件
 
+- Assets 相关操作，包括读取asest文件内容，复制Assets 文件或者整个文件夹到外部存储
+
 ### ZixieFileProvider
 
 - 封装的文件访问用的Provider
