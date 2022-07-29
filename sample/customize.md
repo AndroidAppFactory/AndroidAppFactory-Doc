@@ -55,18 +55,14 @@
     ext.moduleVersionName = "3.6.5"
     ext.moduleInfo = [
 
-            "APPTest"       : [
-                    "apidependenciesList": ["",
-                                            "com.bihe0832.android:common-test:${project.aaf_version}",
-                                            "Application"
+            "APPTest"         : [
+                    "apidependenciesList": ["Application",
+                                            "com.bihe0832.android:common-debug:${project.aaf_test_version}",
                     ]
             ],
-            "Application"   : [
+            "Application"     : [
                     "apidependenciesList"    : [
-                            "com.bihe0832.android:common-feedback:${project.aaf_version}",
-                            "com.bihe0832.android:common-photos:${project.aaf_version}",
-                            "com.bihe0832.android:common-splash:${project.aaf_version}",
-                            "com.bihe0832.android:framework:${project.aaf_version}",
+                            "com.bihe0832.android:common-wrapper:${project.aaf_version}",
                             'com.squareup.okhttp3:okhttp:3.9.1',
                             'com.squareup.okhttp3:logging-interceptor:3.8.0',
                             'com.squareup.retrofit2:retrofit:2.4.0',
@@ -75,6 +71,8 @@
 
                     ],
                     "specialdependenciesList": [
+                            "debugApi"  : ["com.squareup.leakcanary:leakcanary-android:1.5.1"],
+                            "releaseApi": ["com.squareup.leakcanary:leakcanary-android-no-op:1.5.1"],
                             "kapt": ["com.bihe0832.android:lib-router-compiler:${project.aaf_router_version}"]
                     ]
             ]
