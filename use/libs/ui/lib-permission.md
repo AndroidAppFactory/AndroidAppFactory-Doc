@@ -38,10 +38,14 @@ implementation 'com.bihe0832.android:lib-permission:+'
 
 - 基于 [IntentUtils](./../noui/lib-utils-apk.md#intentutils) 打开对应权限的设置页面，具体权限对应的设置页面的跳转参数可以参考 [Android 权限 及设置描述信息](https://blog.bihe0832.com/android-permission.html)
 
-### PermissionsActivity
+### PermissionsActivity & PermissionsActivityV2
 
 - 检查权限并弹框引导的中转页、可继承并定制
 
 ### FloatPermissionWrapper
 
 - 悬浮窗权限的检查方法
+
+### UniqueDialogManager
+
+- 支持过滤重复弹框的弹框管理
