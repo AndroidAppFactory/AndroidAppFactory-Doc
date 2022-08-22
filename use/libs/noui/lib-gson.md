@@ -38,6 +38,8 @@ implementation 'com.bihe0832.android:lib-gson:+'
 
 - 对于额外的特殊字段，不通过gson解析返回，可以直接用 `transient`关键字标注
 
+- 可以使用自定义的GsonBuilder解析
+
 ```java
 public class JsonTest {
 
