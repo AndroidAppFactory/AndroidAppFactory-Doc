@@ -73,7 +73,7 @@
                     "specialdependenciesList": [
                             "debugApi"  : ["com.squareup.leakcanary:leakcanary-android:1.5.1"],
                             "releaseApi": ["com.squareup.leakcanary:leakcanary-android-no-op:1.5.1"],
-                            "kapt": ["com.bihe0832.android:lib-router-compiler:${project.aaf_router_version}"]
+                            "kapt": ["com.bihe0832.android:lib-router-compiler:5.1.7"]
                     ]
             ]
     ]
