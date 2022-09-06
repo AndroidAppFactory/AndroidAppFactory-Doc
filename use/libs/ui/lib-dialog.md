@@ -27,6 +27,10 @@ implementation 'com.bihe0832.android:lib-dialog:+'
 
 - 对框架提供的Dialog的二次封装，提供了带输入框、简单的确认弹框、简单的Alert弹框的调用方法
 
+### UniqueDialogManager
+
+- 封装对于多来源弹框但是只弹一次的通用处理逻辑，可参考：`AAFUniqueDialogManager`
+
 ### CommonDialog
 
 - 通用弹框，所有组件显示可控，调用方式可以参考 `BaseTest` 里面的 `TestDialogFragment`，显示样式参考：
