@@ -24,6 +24,8 @@
         * [common-data-center](use/common/common-data-center.md)
         * [common-image](use/common/common-image.md)
         * [common-ace-editor](use/common/common-ace-editor.md)
+        * [common-bottom-tab](use/common/common-bottom-tab.md)
+        * [common-svga](use/common/common-svga.md)
 
     * [基础组件信息]()
         * [基础组件集]()
@@ -71,7 +73,7 @@
             * [lib-image](use/libs/ui/lib-image.md)
             * [lib-dialog](use/libs/ui/lib-dialog.md)
             * [lib-notification](use/libs/ui/lib-notification.md)
-            * [lib-custom-view](use/libs/ui/lib-custom-view.md)
+            * [lib-bottom-tab](use/libs/ui/lib-bottom-tab.md)
             * [lib-touchregion](use/libs/ui/lib-touchregion.md)
             * [lib-view-ext](use/libs/ui/lib-view-ext.md)
             * [lib-webview](use/libs/ui/lib-webview.md)
