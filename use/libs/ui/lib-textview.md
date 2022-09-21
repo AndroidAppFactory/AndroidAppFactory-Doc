@@ -23,9 +23,22 @@ implementation 'com.bihe0832.android:lib-textview:+'
 
 ## 组件功能
 
-### TextViewWithRedTips
+### TextViewWithBackground
 
-- 支持红点及数字红点的Textview
+- 支持动态修改TextView背景，支持动态的内容有：
+
+    - bgtv_backgroundColor：背景色
+
+    - bgtv_cornerRadius：圆角弧度,单位dp
+
+    - bgtv_strokeWidth：圆角边框厚度,单位dp
+
+    - bgtv_strokeColor：圆角边框颜色
+
+    - bgtv_isRadiusHalfHeight：圆角弧度是高度一半
+
+    - bgtv_isWidthHeightEqual：圆角矩形宽高相等,取较宽高中大值
+
 
 ### ExpandableTextView
 
@@ -56,7 +69,6 @@ implementation 'com.bihe0832.android:lib-textview:+'
     - etv_EnableToggle: 点击文本主体是否支持切换
 
     - etv_InitState:文案的初始状态
-
 
 #### CommentTextView
 
