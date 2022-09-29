@@ -35,6 +35,14 @@ implementation 'com.bihe0832.android:lib-encrypt:+'
 
 - 计算内容的MD5，支持文本、文件（全文、指定片段）、字符数组、输入流  
 
+### SHA256
+
+- 计算内容的SHA256，支持文本、文件（全文、指定片段）、字符数组、输入流  
+
+### MessageDigestUtils
+
+- 通用的MessageDigest，MD5、SHA256底层都是调用它
+
 ### GzipUtils
 
 - Gzip 的压缩与解压

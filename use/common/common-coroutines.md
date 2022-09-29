@@ -25,3 +25,7 @@ implementation 'com.bihe0832.android:common-coroutines:+'
 ### ZixieCoroutinesException
 
 通用基础框架的协程异常定义
+
+### ZixieCoroutinesData
+
+协程通用的数据结构，可以同时返回错误和正常值，并支持多种调用方式

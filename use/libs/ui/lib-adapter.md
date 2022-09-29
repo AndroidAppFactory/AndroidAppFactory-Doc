@@ -5,6 +5,7 @@
 [ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-adapter) ](https://search.maven.org/artifact/com.bihe0832.android/lib-adapter)
 
 ## 功能简介
+
 一个更丰富和强大的RecyclerAdapter框架，可以支持：
 	
 	- 支持一个RecycleView支持多种Item样式
