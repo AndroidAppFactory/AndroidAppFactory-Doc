@@ -2,7 +2,7 @@
 
 ![CommonDataCenter](https://img.shields.io/badge/AndroidAppFactory-CommonDataCenter-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-CommonDataCenter-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/CommonDataCenter)
-[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-list) ](https://search.maven.org/artifact/com.bihe0832.android/common-list)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-data-center) ](https://search.maven.org/artifact/com.bihe0832.android/common-data-center)
 
 ## 功能简介
 

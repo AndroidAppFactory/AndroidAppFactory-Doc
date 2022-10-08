@@ -2,7 +2,7 @@
 
 ![CommonImage](https://img.shields.io/badge/AndroidAppFactory-CommonImage-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-CommonImage-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/CommonImage)
-[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-list) ](https://search.maven.org/artifact/com.bihe0832.android/common-list)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-image) ](https://search.maven.org/artifact/com.bihe0832.android/common-image)
 
 ## 功能简介
 

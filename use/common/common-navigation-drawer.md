@@ -2,7 +2,7 @@
 
 ![CommonNavigationDrawer](https://img.shields.io/badge/AndroidAppFactory-CommonNavigationDrawer-brightgreen)
 [ ![Github](https://img.shields.io/badge/Github-CommonNavigationDrawer-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/CommonNavigationDrawer)
-[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-coroutines) ](https://search.maven.org/artifact/com.bihe0832.android/common-coroutines)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-navigation-drawer) ](https://search.maven.org/artifact/com.bihe0832.android/common-navigation-drawer)
 
 ## 功能简介
 
@@ -22,10 +22,6 @@ implementation 'com.bihe0832.android:common-navigation-drawer:+'
 
 ## 组件功能
 
-### ZixieCoroutinesException
+### NavigationDrawerFragment
 
-通用基础框架的协程异常定义
-
-### ZixieCoroutinesData
-
-协程通用的数据结构，可以同时返回错误和正常值，并支持多种调用方式
+NavigationDrawer 的基类，业务的NavigationDrawer 只需要继承它然后直接写自己的内部业务逻辑即可
