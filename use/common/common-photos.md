@@ -29,3 +29,7 @@ implementation 'com.bihe0832.android:common-photos:+'
 - 无需相册权限的拍照
 
 - 基于 [PermissionManager](./../libs/ui/lib-permission.md#permissionmanager) 完成权限设置及检查的相册照片选择
+
+### HeadIconBuildFactory
+
+基于 HeadIconBuilder 的，支持使用缓存的扩展类

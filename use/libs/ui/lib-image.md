@@ -51,3 +51,7 @@ implementation 'com.bihe0832.android:lib-image:+'
 ### Media
 
 - 将图片或者视频添加到相册，前提是图片或者视频保存在外部存储
+
+### BlurTransformation
+
+Glide 支持高斯模糊的转换方式
