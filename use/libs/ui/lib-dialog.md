@@ -23,6 +23,10 @@ implementation 'com.bihe0832.android:lib-dialog:+'
 
 ## 组件功能
 
+### BlockDialogManager
+
+- 阻塞逐个弹出的Dialog 队列实现，防止同时一次弹出多个Dialog
+
 ### DialogUtils
 
 - 对框架提供的Dialog的二次封装，提供了带输入框、简单的确认弹框、简单的Alert弹框的调用方法

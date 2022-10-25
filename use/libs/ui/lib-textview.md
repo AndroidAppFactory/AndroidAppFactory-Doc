@@ -95,4 +95,4 @@ implementation 'com.bihe0832.android:lib-textview:+'
 
 - ZixieTextImageSpan：图标扩展
 
-- ZixieTextRadiusBackgroundSpan：圆角背景扩展
+- ZixieTextRadiusBackgroundSpan：圆角背景、文字边框等扩展
