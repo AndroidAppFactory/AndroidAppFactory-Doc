@@ -40,7 +40,7 @@ implementation 'com.bihe0832.android:lib-utils-common:+'
 
 ### DateUtil
 
-- 各式时间转换，获取各种格式的时间，时间比较文字结果（几秒前，几分钟前）
+- 各式时间转换，获取各种格式的时间，时间比较文字结果（几秒前，几分钟前），获取某一天开始的时间戳
 
 ### TimeUtil
 

@@ -28,8 +28,6 @@
     * [基础组件信息]()
         * [基础组件集]()
             * [lib-wrapper](use/libs/combination/lib-wrapper.md)
-            * [lib-uiutils](use/libs/combination/lib-uiutils.md)
-            * [lib-utils](use/libs/combination/lib-utils.md)
         * [基础功能]()
             * [lib-aaf-tools](use/libs/noui/lib-aaf-tools.md)
             * [lib-android](use/libs/noui/lib-android.md)
