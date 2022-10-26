@@ -22,6 +22,6 @@ implementation 'com.bihe0832.android:lib-wrapper:+'
 
 ## 组件功能
 
-主要是二次封装 [lib-uiutils](./lib-uiutils.md) 和 [lib-utils](./lib-utils.md)
+主要是二次封装所有基础类，方便日常调用
 
 
