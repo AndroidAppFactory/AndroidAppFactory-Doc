@@ -1,12 +1,12 @@
-# LibImage
+# LibMedia
 
-![LibImage](https://img.shields.io/badge/AndroidAppFactory-LibImage-brightgreen)
-[ ![Github](https://img.shields.io/badge/Github-LibImage-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibImage)
-[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-image)](https://search.maven.org/artifact/com.bihe0832.android/lib-image)
+![LibMedia](https://img.shields.io/badge/AndroidAppFactory-LibMedia-brightgreen)
+[ ![Github](https://img.shields.io/badge/Github-LibMedia-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibMedia)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-media)](https://search.maven.org/artifact/com.bihe0832.android/lib-media)
 
 ## 功能简介
 
-对ImageView加载图片的的扩展，支持各种类型的图片加载方式，以及图像相关的 Bitmap、相册保存等
+对音视频及图片处理相关的的扩展
 
 ## 组件信息
 
@@ -17,10 +17,14 @@
 #### 组件使用
 
 ```groovy
-implementation 'com.bihe0832.android:lib-image:+'
+implementation 'com.bihe0832.android:lib-media:+'
 ```
 
 ## 组件功能
+
+### Media
+
+- 将图片或者视频添加到相册，前提是图片或者视频保存在外部存储
 
 ### CheckedEnableImageView
 
@@ -48,10 +52,14 @@ implementation 'com.bihe0832.android:lib-image:+'
 
 - 基于kotlin的扩展函数，使用Glide为ImageView添加的各种扩展，支持各种形式的图片加载，如圆形、圆角、gif等
 
-### Media
-
-- 将图片或者视频添加到相册，前提是图片或者视频保存在外部存储
-
 ### BlurTransformation
 
 Glide 支持高斯模糊的转换方式
+
+### HeadIconBuilder
+
+头像拼装，支持用不同数量的头像合并成一个新头像，一般用于群头像生成
+
+### AudioTools
+
+获取音频时长
