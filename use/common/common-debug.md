@@ -29,13 +29,17 @@ implementation 'com.bihe0832.android:common-debug:+'
 
 <img src="./common-debug/DebugMainFragment.png" width="30%"/>
 
-### BaseDebugActivity & BaseDebugListFragment
+### DebugMainActivity
+
+提供一个空白的，通过类名就能加载Fragment的空白调试 Activity
+
+### BaseDebugActivity & BaseDebugFragment & BaseDebugListActivity & BaseDebugListFragment
 
 基础的测试列表页，同时提供打开网页、弹出输入框、跳转Activity、基于 [LibDebug](./../libs/noui/lib-debug.md) 的调试信息文本分享等基础功能
 
-### DebugDebugCommonFragment
+### DebugDebugCommonFragment & DebugEnvFragment
 
-基于 BaseDebugListFragment 的 AAF 通用调试方法，包括查看应用版本及环境、使用情况，查看设备信息，第三方应用信息，以及一些快速跳转的功能入口
+基于 BaseDebugListFragment 的 AAF 通用调试方法，包括查看应用版本及环境、使用情况，查看设备信息，单选切换，第三方应用信息获取，以及一些快速跳转的功能入口
 
 <img src="./common-debug/DebugCommonFragment.png" />
 
