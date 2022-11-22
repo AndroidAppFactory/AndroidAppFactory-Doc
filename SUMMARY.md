@@ -58,7 +58,7 @@
             * [lib-block-task](use/libs/noui/lib-block-task.md)
             * [lib-okhttp-wrapper](use/libs/noui/lib-okhttp-wrapper.md)
             * [lib-coroutines](use/libs/noui/lib-coroutines.md)
-            * [lib-data-center](use/libs/noui/lib-data-center.md)
+            * [lib-data-repository](use/libs/noui/lib-data-repository.md)
             * [lib-audio-player](use/libs/noui/lib-audio-player.md)
         * [UI相关]()
             * [lib-ui-common](use/libs/ui/lib-ui-common.md)
