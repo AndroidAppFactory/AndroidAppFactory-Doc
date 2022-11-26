@@ -23,9 +23,13 @@ implementation 'com.bihe0832.android:lib-dialog:+'
 
 ## 组件功能
 
-### BlockDialogManager
+### PriorityBlockDialogManager
 
-- 阻塞逐个弹出的Dialog 队列实现，防止同时一次弹出多个Dialog
+- 逐个弹出的 Dialog 队列实现，防止同时一次弹出多个Dialog，弹出顺序依照优先级排列
+
+### DependenceBlockDialogManager
+
+- 逐个弹出的 Dialog 队列实现，防止同时一次弹出多个Dialog，弹出顺序依照弹框的依赖顺序，如果他依赖的没有弹出，直接等待直到超时
 
 ### DialogUtils
 

@@ -22,10 +22,18 @@ implementation 'com.bihe0832.android:lib-block-task:+'
 
 ## 组件功能
 
-### BlockTaskManager
+### PriorityBlockTaskManager
 
-阻塞队列的管理实例，添加任务以后，会按照优先级和添加顺序逐个执行
+基于优先级的阻塞队列的管理实例，添加任务以后，会按照优先级和添加顺序逐个执行
+
+### DependenceBlockTaskManager
+
+基于依赖顺序的阻塞队列的管理实例，添加任务以后，会按照依赖关系和添加顺序逐个执行
 
 ### BaseAAFBlockTask
 
 阻塞队列的任务实例，
+
+### DependenceBlockTask
+
+基于依赖顺序的阻塞队列的单个任务定义
