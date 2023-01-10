@@ -29,3 +29,7 @@ implementation 'com.bihe0832.android:lib-timer:+'
 ### BaseTask
 
 - 定时任务的基本信息，例如运行周期、任务内容等
+
+### TimerProcessManager
+
+- 基于倒计时的进度管理
