@@ -55,27 +55,22 @@
     ext.moduleVersionName = "3.6.5"
     ext.moduleInfo = [
 
-            "APPTest"         : [
-                    "apidependenciesList": ["Application",
-                                            "com.bihe0832.android:common-debug:${project.aaf_test_version}",
-                    ]
-            ],
-            "Application"     : [
-                    "apidependenciesList"    : [
-                            "com.bihe0832.android:common-wrapper:${project.aaf_version}",
-                            'com.squareup.okhttp3:okhttp:3.9.1',
-                            'com.squareup.okhttp3:logging-interceptor:3.8.0',
-                            'com.squareup.retrofit2:retrofit:2.4.0',
-                            'com.squareup.retrofit2:converter-gson:2.4.0',
-                            "org.jetbrains.kotlin:kotlin-stdlib:${project.kotlin_version}"
-
-                    ],
-                    "specialdependenciesList": [
-                            "debugApi"  : ["com.squareup.leakcanary:leakcanary-android:1.5.1"],
-                            "releaseApi": ["com.squareup.leakcanary:leakcanary-android-no-op:1.5.1"],
-                            "kapt": ["com.bihe0832.android:lib-router-compiler:5.1.7"]
-                    ]
+        "APPTest"         : [
+            "apidependenciesList": ["",
+                                    "Application", "BaseDebug"
             ]
+        ],
+        "Application"     : [
+                "apidependenciesList"    : [
+                        "com.bihe0832.android:common-wrapper:${project.aaf_version}",
+
+                ],
+                "specialdependenciesList": [
+                        "debugApi"  : ["com.squareup.leakcanary:leakcanary-android:1.5.1"],
+                        "releaseApi": ["com.squareup.leakcanary:leakcanary-android-no-op:1.5.1"],
+                        "kapt": ["com.bihe0832.android:lib-router-compiler:5.1.7"]
+                ]
+        ]
     ]
     ```
 
@@ -100,16 +95,7 @@ include ':APPTest'
 
 ```java
 dependencies {
-    api "com.bihe0832.android:common-feedback:${project.aaf_version}"
-    api "com.bihe0832.android:common-photos:${project.aaf_version}"
-    api "com.bihe0832.android:common-splash:${project.aaf_version}"
-    api "com.bihe0832.android:common-test:${project.aaf_version}"
-    api "com.bihe0832.android:framework:${project.aaf_version}"
-
-    api "com.squareup.okhttp3:okhttp:3.9.1"
-    api "com.squareup.okhttp3:logging-interceptor:3.8.0"
-    api "com.squareup.retrofit2:retrofit:2.4.0"
-    api "com.squareup.retrofit2:converter-gson:2.4.0"
+    api "com.bihe0832.android:common-wrapper:${project.aaf_version}"
 }
 ```
 
