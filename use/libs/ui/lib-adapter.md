@@ -8,11 +8,11 @@
 
 一个更丰富和强大的RecyclerAdapter框架，可以支持：
 	
-	- 支持一个RecycleView支持多种Item样式
-	
-	- 添加头部、尾部、空页面
-	
-	- 自动加载更多等
+- 支持一个RecycleView支持多种Item样式
+
+- 添加头部、尾部、空页面
+
+- 自动加载更多等
 	
 对应GitHub为：[https://github.com/CymChad/BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)
 
