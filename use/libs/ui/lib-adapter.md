@@ -43,3 +43,55 @@ implementation 'com.bihe0832.android:lib-adapter:+'
 ### CardBaseModule
 
 - 所有卡片对应的数据都继承自该类
+
+## 特殊用法（示例仅供参考）
+
+- 根据位置，获取对应的ViewHolder:
+
+```
+	mRecyclerView.findViewHolderForAdapterPosition(newposition)?.let {viewHolder ->
+		ZixieContext.showDebug("Test onActive:" + viewHolder.javaClass.name)
+	}
+```
+
+- 根据位置，修改数据并且直接刷新UI:
+
+```
+	mRecyclerView.findViewHolderForAdapterPosition(newposition)?.let {viewHolder ->
+		(mAdapter.data[newposition] as CardBaseModule ).apply{
+
+		}.let{
+			(viewHolder as CardBaseHolder).initData(mAdapter.data[newposition])
+		}
+	}
+```
+
+- 根据特征值获取位置后，修改数据并且直接刷新UI，示例来自：https://github.com/bihe0832/AndroidAppFactory/blob/master/CommonAbout/src/main/java/com/bihe0832/android/common/about/AboutFragment.kt
+
+```
+	var position: Int = -1
+	val title = context?.resources?.getString(R.string.settings_update_title)
+	for (i in mAdapter.data.indices) {
+		if (mAdapter.data[i] is SettingsData && title == (mAdapter.data[i] as? SettingsData)?.mItemText) {
+			position = i
+			break
+		}
+	}
+
+	if (position >= 0) {
+		(mAdapter.data[position] as? SettingsData)?.apply {
+			if (null != cloud && cloud.updateType > UpdateDataFromCloud.UPDATE_TYPE_HAS_NEW_JUMP) {
+				mTipsText = context?.resources?.getString(R.string.settings_update_tips)
+						?: ""
+				mItemIsNew = true
+			} else {
+				mTipsText = ""
+				mItemIsNew = false
+			}
+		}?.let { newData ->
+			mRecyclerView?.findViewHolderForAdapterPosition(position).let { viewHolder ->
+				(viewHolder as? CardBaseHolder)?.initData(newData)
+			}
+		}
+	}
+```

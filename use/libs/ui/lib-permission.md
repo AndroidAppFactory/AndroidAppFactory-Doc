@@ -45,7 +45,3 @@ implementation 'com.bihe0832.android:lib-permission:+'
 ### FloatPermissionWrapper
 
 - 悬浮窗权限的检查方法
-
-### UniqueDialogManager
-
-- 支持过滤重复弹框的弹框管理
