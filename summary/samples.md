@@ -16,6 +16,23 @@
 
 ![扫码下载](https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZAPK_official.apk)
  
+## ADB 快捷输入
+
+### 应用简介
+    
+一款基于ADB的，可以通过电脑快速输入中文等信息的快捷输入法，主要解决ADB命令无法输入中文的问题
+
+### 应用截图
+
+<img src="./input.png" width="60%" />
+
+### 应用下载
+
+[点击下载到本地](https://android.bihe0832.com/app/release/ZINPUT_official.apk)
+
+![扫码下载](https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZINPUT_official.apk)
+
+    
 ## 拼图游戏
 
 ### 应用简介
