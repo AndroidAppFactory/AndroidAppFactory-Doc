@@ -24,6 +24,7 @@
         * [common-bottom-tab](use/common/common-bottom-tab.md)
         * [common-svga](use/common/common-svga.md)
         * [common-navigation-drawer](use/common/common-navigation-drawer.md)
+        * [common-message](use/common/common-message.md)
         
     * [基础组件信息]()
         * [基础组件集]()
