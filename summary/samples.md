@@ -24,7 +24,7 @@
 
 ### 应用截图
 
-<img src="./input.png" width="60%" />
+<img src="./input.png" width="40%" />
 
 ### 应用下载
 
@@ -32,7 +32,20 @@
 
 ![扫码下载](https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZINPUT_official.apk)
 
-    
+### 输入命令
+
+- 简单文本输入：主要用于简单的中文输入，一次即可完成输入
+
+`adb shell am broadcast -a ZIXIE_ADB_INPUT_TEXT --es msg DATA`
+
+其中DATA就是你要输入的内容
+
+- 复杂文本输入：主要对于有特殊符号等的文本输入，要先输入命令，再输入内容
+
+`echo "请输入你要通过 ADB 输入内容的原文" && read input && content=$( base64 <<< $input ) && adb shell am broadcast -a ZIXIE_ADB_INPUT_BASE64 --es msg $content`
+
+命令结束后输入原文，自动完成转码和输入
+
 ## 拼图游戏
 
 ### 应用简介
