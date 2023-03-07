@@ -41,20 +41,3 @@ implementation 'com.bihe0832.android:lib-view-ext:+'
 ### DrawableFactory
 
 - 一些常见的背景颜色等的代码实现，减少xml形式的Drawable的使用，核心就是 GradientDrawable
-
-### ViewWithBackground
-
-- 支持通过xml 或者代码动态修改背景的View，支持动态的内容有：
-
-    - bgtv_backgroundColor：背景色
-
-    - bgtv_cornerRadius：圆角弧度,单位dp
-
-    - bgtv_strokeWidth：圆角边框厚度,单位dp
-
-    - bgtv_strokeColor：圆角边框颜色
-
-    - bgtv_isRadiusHalfHeight：圆角弧度是高度一半
-
-    - bgtv_isWidthHeightEqual：圆角矩形宽高相等,取较宽高中大值
-

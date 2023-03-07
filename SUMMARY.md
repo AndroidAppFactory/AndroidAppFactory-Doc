@@ -86,6 +86,7 @@
             * [lib-textview](use/libs/ui/lib-textview.md)
             * [lib-ace-editor](use/libs/ui/lib-ace-editor.md)
             * [lib-view-pager](use/libs/ui/lib-view-pager.md)
+            * [lib-custom-view](use/libs/ui/lib-custom-view.md)
         * [路由相关]()
             * [lib-router](use/libs/router/lib-router.md)
             * [lib-router-compiler](use/libs/router/lib-router-compiler.md)
