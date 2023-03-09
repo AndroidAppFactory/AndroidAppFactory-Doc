@@ -39,6 +39,9 @@ implementation 'com.bihe0832.android:lib-textview:+'
 
     - bgtv_isWidthHeightEqual：圆角矩形宽高相等,取较宽高中大值
 
+### TextViewWithBackgroundExt
+
+- 基于Kotlin的扩展函数添加的 TextViewWithBackground 的扩展，使用 TextViewWithBackground 完成红点提醒的相关功能
 
 ### ExpandableTextView
 
@@ -85,7 +88,6 @@ implementation 'com.bihe0832.android:lib-textview:+'
 ### TextViewExt
 
 - 基于Kotlin的扩展函数添加的 TextView 的扩展，为 TextView 设置四边Drawable，设置可点击的文字内容
-
 
 #### TextView 扩展
 
