@@ -13,19 +13,20 @@
 - 新建空目录
 
     ```shell
-    mkdir ./
+    mkdir ./AAF
     ```
         
 
 - 复制 AndroidAppFactory-Sample 的所有内容到当前目录
 
     ```shell
-    cp -fr ~/zixie/github/AndroidAppFactory-Sample/ ./
+    git clone https://github.com/bihe0832/AndroidAppFactory-Sample.git ./AAF
     ```
 
 - 删除除 APPTest 和 Application 以外的所有模块（也就是所有Base 开头和Pub 开头的项目）及 Git 信息
     
     ```shell
+    cd ./AAF
     ls | grep Base | xargs -I {} rm -fr ./{}
     ls | grep Pub | xargs -I {} rm -fr ./{}
     rm -fr .git

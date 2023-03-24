@@ -41,7 +41,14 @@ implementation 'com.bihe0832.android:common-debug:+'
 
 基于 BaseDebugListFragment 的 AAF 通用调试方法，包括查看应用版本及环境、使用情况，查看设备信息，单选切换，第三方应用信息获取，以及一些快速跳转的功能入口
 
-<img src="./common-debug/DebugCommonFragment.png" />
+<img src="./common-debug/DebugCommonFragment.png"  width="30%"/>
+
+### DebugDeviceFragment
+
+获取并列出当前设备的详细信息，包括：设备ID、Android 系统信息、应用内存配置、当前运行内存信息、硬件信息、网络信息等
+
+<img src="./common-debug/DebugDeviceFragment.png"  width="30%"/>
+
 
 ### DebugRouterFragment
 
