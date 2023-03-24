@@ -20,9 +20,9 @@
 
 ### 安卓开发那些事总纲
 
-- 链接：[https://blog.bihe0832.com/android-dev-summary.html](https://blog.bihe0832.com/android-dev-summary.html)
+- **链接：[https://blog.bihe0832.com/android-dev-summary.html](https://blog.bihe0832.com/android-dev-summary.html)**
 
-- 简介：介绍了Android 开发相关的技术沉淀。对于AAF的整个技术方案，以及其中一些核心的技术点，可以看里面关于「组件化框架介绍」的内容
+- **简介：对于AAF的整个技术方案的全面介绍以及相关联开发技术及工具的总结汇总**
 
 ### 安卓组件化之框架设计
 
