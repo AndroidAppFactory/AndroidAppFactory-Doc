@@ -20,7 +20,13 @@
 
 - 非强制更新，弹框取消不再主动弹框
 
-<img src="./update.png" />
+<img src="./update.png"  width="80%" />
+
+
+关于配置更新，目前也增加了专门的配置WebUI，对应地址为：[https://cdn.bihe0832.com/tools/config/update.html](https://cdn.bihe0832.com/tools/config/update.html)
+
+<img src="https://cdn.bihe0832.com/tools/image/aaf_update.png"  width="60%" />
+
 
 ## 组件信息
 
