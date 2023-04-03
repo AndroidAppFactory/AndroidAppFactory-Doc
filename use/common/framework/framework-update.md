@@ -25,7 +25,7 @@
 
 关于配置更新，目前也增加了专门的配置WebUI，对应地址为：[https://cdn.bihe0832.com/tools/config/update.html](https://cdn.bihe0832.com/tools/config/update.html)
 
-<img src="https://cdn.bihe0832.com/tools/images/aaf_update.png"  width="60%" />
+<img src="https://cdn.bihe0832.com/tools/images/aaf_update.png"   />
 
 
 ## 组件信息
