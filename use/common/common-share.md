@@ -31,7 +31,7 @@ implementation 'com.bihe0832.android:common-share:+'
 
 通过二维码分享链接等内容及应用分享，根据配置，可以分享用户的下载方式的文本或者二维码其余用户，二维码事例如下：
 
-<img src="./common-share/share_demo.png" width="90%"/>
+<img src="./common-share/share_demo.jpg" width="90%"/>
 
 
 
