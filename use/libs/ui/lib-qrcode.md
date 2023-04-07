@@ -22,4 +22,10 @@ implementation 'com.bihe0832.android:lib-qrcode:+'
 
 ## 组件功能
 
-二维码扫描、识别、生成的工具类，目前仅合入进来，需要进一步整理
+### QRCodeDecodingHandler
+
+- 二维码识别相关的工具类
+
+### QRCodeEncodingHandler
+
+- 二维码生成的工具类

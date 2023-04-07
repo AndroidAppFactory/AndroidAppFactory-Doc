@@ -17,6 +17,7 @@
         * [common-network](use/common/common-network.md)
         * [common-webview](use/common/common-webview.md)
         * [common-feedback](use/common/common-feedback.md)
+        * [common-share](use/common/common-share.md)
         * [common-praise](use/common/common-praise.md)
         * [common-list](use/common/common-list.md)
         * [common-about](use/common/common-about.md)
