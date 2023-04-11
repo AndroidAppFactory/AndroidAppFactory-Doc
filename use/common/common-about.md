@@ -31,3 +31,7 @@ implementation 'com.bihe0832.android:common-about:+'
 ### AboutFragment
 
 通用的关于页面的更多信息
+
+### SettingsData && SettingsHolder
+
+通用的消息样式

@@ -39,4 +39,4 @@ implementation 'com.bihe0832.android:common-message:+'
 
 ### MessageManager
 
-消息通知的管理类，需要提前初始化
+消息通知的管理类，需要提前初始化，提供消息获取，顺序弹出，未读数目获取等

@@ -25,3 +25,15 @@ implementation 'com.bihe0832.android:common-navigation-drawer:+'
 ### NavigationDrawerFragment
 
 NavigationDrawer 的基类，业务的NavigationDrawer 只需要继承它然后直接写自己的内部业务逻辑即可
+
+### CommonActivityWithNavigationDrawer
+
+通用集成了NavigationDrawerFragment 的activity，并且支持icon 红点
+
+### CommonNavigationDrawerFragment
+
+通用的 NavigationDrawerFragment
+
+### CommonNavigationContentFragment
+
+对 NavigationDrawerFragment 封装为一个列表，方便调用

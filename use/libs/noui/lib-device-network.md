@@ -40,6 +40,10 @@ implementation 'com.bihe0832.android:lib-device-network:+'
 
 - 是否指定厂商、对应厂商的操作系统版本
 
+#### ShakeManager
+
+- 手机传感器封装，通用的摇一摇实现
+
 ### 网络相关
 
 #### DeviceInfoManager
