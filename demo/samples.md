@@ -86,5 +86,21 @@
 
 ![扫码下载](https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZM3U8_official.apk)
 
+## 摇吧
+
+### 应用简介
     
+一款基于摇一摇的小游戏应用。
+
+### 应用截图
+
+<img src="./shakeba.png" width="60%" />
+
+### 应用下载
+
+[点击下载到本地](https://android.bihe0832.com/app/release/ZSHAKE_official.apk)
+
+![扫码下载](https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZSHAKE_official.apk)
+
+       
             

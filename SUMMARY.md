@@ -2,7 +2,7 @@
 
 * [关于框架](README.md)
     * [总体介绍](summary/links.md)
-    * [应用事例](summary/samples.md)
+    * [应用事例](demo/samples.md)
 * [组件使用]()
     * [组件引入](use/start.md)
     * [公共组件信息]()
