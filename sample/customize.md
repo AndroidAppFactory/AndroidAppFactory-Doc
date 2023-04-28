@@ -10,6 +10,15 @@
 
 ## 基于 AAF 构建模式
 
+### 基于AAF 提供的空项目
+
+- 打开 Template-AAF: [https://github.com/AndroidAppFactory/Template-AAF](https://github.com/AndroidAppFactory/Template-AAF)
+
+- 直接 clone 或者基于  Template-AAF 新建项目
+
+### 使用 AndroidAppFactory-Sample 最新代码
+
+
 - 新建空目录
 
     ```shell
@@ -80,6 +89,15 @@
     运行APPTest
 
 ## 基于通用Android项目构建模式
+
+
+### 基于 AAF 提供的空项目
+
+- 打开 Template-Android: [https://github.com/AndroidAppFactory/Template-Android](https://github.com/AndroidAppFactory/Template-Android)
+
+- 直接 clone 或者基于  Template-Android 新建项目
+
+### 使用 AndroidAppFactory-Sample 最新代码
 
 - 新建 Android 工程，已有可以跳过
 
