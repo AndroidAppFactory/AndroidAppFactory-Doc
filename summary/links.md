@@ -1,8 +1,8 @@
 ## 开源仓库
 
- <a href="https://github.com/bihe0832/AndroidAppFactory"><img src="https://github-readme-stats.vercel.app/api/pin?username=bihe0832&repo=AndroidAppFactory" width ="45%" /></a> <a href="https://github.com/bihe0832/AndroidAppFactory-Sample"><img src="https://github-readme-stats.vercel.app/api/pin?username=bihe0832&repo=AndroidAppFactory-Sample" width ="45%" /></a>
+ <a href="https://github.com/bihe0832/AndroidAppFactory"><img src="https://github-readme-stats.vercel.app/api/pin?username=bihe0832&repo=AndroidAppFactory" width ="50%" /></a> <a href="https://github.com/bihe0832/AndroidAppFactory-Sample"><img src="https://github-readme-stats.vercel.app/api/pin?username=bihe0832&repo=AndroidAppFactory-Sample" width ="50%" /></a>
 
- <a href="https://github.com/bihe0832/AndroidAppFactory-Doc"><img src="https://github-readme-stats.vercel.app/api/pin?username=bihe0832&repo=AndroidAppFactory-Doc" width ="45%" /></a> <a href="https://github.com/bihe0832/AndroidAppFactory-Pages"><img src="https://github-readme-stats.vercel.app/api/pin?username=bihe0832&repo=AndroidAppFactory-Pages" width ="45%" /></a>
+ <a href="https://github.com/bihe0832/AndroidAppFactory-Doc"><img src="https://github-readme-stats.vercel.app/api/pin?username=bihe0832&repo=AndroidAppFactory-Doc" width ="50%" /></a> <a href="https://github.com/bihe0832/AndroidAppFactory-Pages"><img src="https://github-readme-stats.vercel.app/api/pin?username=bihe0832&repo=AndroidAppFactory-Pages" width ="50%" /></a>
 
 ## 相关链接
 
