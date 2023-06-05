@@ -24,4 +24,4 @@ implementation 'com.bihe0832.android:lib-audio-player:+'
 
 ### AudioPLayerManager
 
-- 添加播放音频，支持文件路径和资源ID 
+- 添加播放音频，支持文件路径和资源ID，支持设置音量和播放速度

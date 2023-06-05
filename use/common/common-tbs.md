@@ -1,8 +1,8 @@
-# LibWebview
+# CommonTBS
 
-![LibWebview](https://img.shields.io/badge/AndroidAppFactory-LibWebview-brightgreen)
-[ ![Github](https://img.shields.io/badge/Github-LibWebview-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibWebview)
-[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-webview)](https://search.maven.org/artifact/com.bihe0832.android/lib-webview)
+![CommonTBS](https://img.shields.io/badge/AndroidAppFactory-CommonTBS-brightgreen)
+[ ![Github](https://img.shields.io/badge/Github-CommonTBS-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/CommonTBS)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-tbs)](https://search.maven.org/artifact/com.bihe0832.android/common-tbs)
 
 ## 功能简介
 
@@ -17,7 +17,7 @@
 #### 组件使用
 
 ```groovy
-implementation 'com.bihe0832.android:lib-webview:+'
+implementation 'com.bihe0832.android:common-tbs:+'
 ```
 
 ## 组件功能
@@ -26,7 +26,7 @@ implementation 'com.bihe0832.android:lib-webview:+'
 
 - Webview 及 X5 内核的初始化
 
-### BaseWebView
+### TBSWebView
 
 - 基于X5 定制的Webview
 
@@ -102,19 +102,3 @@ implementation 'com.bihe0832.android:lib-webview:+'
     setDrawingCacheEnabled(true);
     ```
 
-### JSbridge
-
-JSbridge 相关的实现方案，可以点击[JSBridge](./../../../tools/android_jsbridge.md)参考文档了解
-
-- BaseJsBridgeProxy
-
-    从JS调用转为原生接口
-
-- JsBridge
-
-    接原生处理结果，回调JS
-
-
-- JsResult
-
-    错误码
