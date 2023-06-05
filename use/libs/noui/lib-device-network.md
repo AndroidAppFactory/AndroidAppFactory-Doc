@@ -52,8 +52,6 @@ implementation 'com.bihe0832.android:lib-device-network:+'
 
 - 数据开关是否打开、4G是否开启
 
-- 获取上网卡或者拨号卡的网络运营商信息
-
 #### IpUtils
 
 - 判断IP地址是否合法（IPV4 & IPV6）

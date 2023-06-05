@@ -31,6 +31,7 @@ implementation 'com.bihe0832.android:lib-aaf-tools:+'
 - bgtv_strokeColor
 - tint
 - string
+- drawableLeft、drawableTop、drawableRight、drawableBottom
 
 ### ThemeResourcesManager
 
