@@ -34,6 +34,8 @@
 
 ### 输入命令
 
+详细快捷输入命令事例可以参考：[https://github.com/bihe0832/Settings-Tools/blob/master/config/mac/.zshrc](https://github.com/bihe0832/Settings-Tools/blob/master/config/mac/.zshrc)
+
 - 简单文本输入：主要用于简单的中文输入，一次即可完成输入
 
     `adb shell am broadcast -a ZIXIE_ADB_INPUT_TEXT --es msg DATA`
@@ -50,6 +52,21 @@
 
 	`adb shell input keyevent 66`
     
+- shell 切换到当前输入法
+
+    ```
+    fun zixieadbinputchangetozixieinput(){
+		# 获取当前输入法包名
+		current_ime=$(adb shell settings get secure default_input_method | tr -d '\r')
+		echo "$current_ime"
+	
+		# 判断输入法是否为指定的包名
+		if [[ "$current_ime" != "com.bihe0832.adb.input/com.bihe0832.android.base.adb.input.ZixieIME" ]]; then
+			echo "$current_ime"
+			adb shell ime set com.bihe0832.adb.input/com.bihe0832.android.base.adb.input.ZixieIME && sleep 2
+		fi
+	}
+    ```
 ## 拼图游戏
 
 ### 应用简介
