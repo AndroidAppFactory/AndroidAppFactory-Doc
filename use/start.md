@@ -16,7 +16,6 @@ allprojects {
 ```  
 ## import
 
-#### 基础组件
 
 直接在项目依赖中添加对应库的依赖，例如基础组件集`LibWrapper`：
 
@@ -26,23 +25,41 @@ dependencies {
 }
 ```
 
-**备注：所有的组件都可以单独使用，同时为了方便开发，对于基础组件直接添加了 LibWrapper 集中管理所有组件，建议开发中直接引用** 
-
-![LibWrapper](https://img.shields.io/badge/AndroidAppFactory-LibWrapper-brightgreen)[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-wrapper) ](https://search.maven.org/artifact/com.bihe0832.android/lib-wrapper)
-
-#### 公共组件
-
-直接在项目依赖中添加对应库的依赖，例如公共组件集`CommonWrapper`：
-
-```groovy
-dependencies {
-    api 'com.bihe0832.android:common-wrapper:+'
-}
-```
-**备注：所有的组件都可以单独使用，同时为了方便开发，对于公共组件直接添加了 CommonWrapper 集中管理所有组件，建议开发中直接引用** 
-
-![CommonWrapper](https://img.shields.io/badge/AndroidAppFactory-CommonWrapper-brightgreen)[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-wrapper) ](https://search.maven.org/artifact/com.bihe0832.android/common-wrapper)
 
 ## 调用
 
 所有的组件都可以单独使用，具体的调用方式参考对应项目
+
+## 常用组件集
+
+**所有的组件都可以单独使用，同时为了方便开发，对于部分组件归类为组件集集中管理** 
+
+
+#### ![LibWrapper](https://img.shields.io/badge/AndroidAppFactory-LibWrapper-brightgreen)[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-wrapper) ](https://search.maven.org/artifact/com.bihe0832.android/lib-wrapper)
+
+
+- 简介：对于基础组件的集中管理所有组件
+
+- 引用：`api 'com.bihe0832.android:lib-wrapper:+'`
+
+    
+#### ![CommonWrapper](https://img.shields.io/badge/AndroidAppFactory-CommonWrapper-brightgreen)[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-wrapper) ](https://search.maven.org/artifact/com.bihe0832.android/common-wrapper)
+
+- 简介：对于公共组件的集中管理所有组件
+
+- 引用：`api 'com.bihe0832.android:common-wrapper:+'`
+
+
+#### ![LibScreenWrapper](https://img.shields.io/badge/AndroidAppFactory-LibScreenWrapper-brightgreen)[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-wrapper-screen) ](https://search.maven.org/artifact/com.bihe0832.android/lib-wrapper-screen)
+
+
+- 简介：Widget及锁屏相关组件
+
+- 引用：`api 'com.bihe0832.android:lib-wrapper-screen:+'`
+
+#### ![CommonTBSWrapper](https://img.shields.io/badge/AndroidAppFactory-CommonTBSWrapper-brightgreen)[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-wrapper-tbs) ](https://search.maven.org/artifact/com.bihe0832.android/common-wrapper-tbs)
+
+
+- 简介：X5内核 Webview 相关组件
+
+- 引用：`api 'com.bihe0832.android:common-wrapper-tbs:+'`
