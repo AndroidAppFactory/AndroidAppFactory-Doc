@@ -45,7 +45,7 @@ public class JsonTest {
 
 	private transient int ignoreKey;
 
-	@SerializedName("key")
+	@SerializedName(value = "key", alternate = {"index"})
 	private int key;
 
 	@SerializedName("value1")
