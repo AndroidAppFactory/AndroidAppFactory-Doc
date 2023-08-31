@@ -23,26 +23,6 @@ implementation 'com.bihe0832.android:lib-textview:+'
 
 ## 组件功能
 
-### TextViewWithBackground
-
-- 支持动态修改TextView背景，支持动态的内容有：
-
-    - bgtv_backgroundColor：背景色
-
-    - bgtv_cornerRadius：圆角弧度,单位dp
-
-    - bgtv_strokeWidth：圆角边框厚度,单位dp
-
-    - bgtv_strokeColor：圆角边框颜色
-
-    - bgtv_isRadiusHalfHeight：圆角弧度是高度一半
-
-    - bgtv_isWidthHeightEqual：圆角矩形宽高相等,取较宽高中大值
-
-### TextViewWithBackgroundExt
-
-- 基于Kotlin的扩展函数添加的 TextViewWithBackground 的扩展，使用 TextViewWithBackground 完成红点提醒的相关功能
-
 ### ExpandableTextView
 
 - 可扩展TextView，用于扩展收起、展开、固定行尾字符等，具体的使用事例，可以参考 BaseTest 中 com.bihe0832.android.base.test.textview 下面的代码。支持自定义的内容有：
@@ -81,6 +61,14 @@ implementation 'com.bihe0832.android:lib-textview:+'
 
 - 基于 ExpandableTextView 优化的收起展开型TextView
 
+### HintTextView
+
+- 渐变色的TextView
+
+### MarqueeTextView
+
+可滚动的Textview
+
 ### TextViewWithHTML
 
 - 默认就支持HTML的TextView
@@ -98,3 +86,4 @@ implementation 'com.bihe0832.android:lib-textview:+'
 - ZixieTextImageSpan：图标扩展
 
 - ZixieTextRadiusBackgroundSpan：圆角背景、文字边框等扩展
+

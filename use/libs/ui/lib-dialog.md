@@ -39,6 +39,10 @@ implementation 'com.bihe0832.android:lib-dialog:+'
 
 - 封装对于多来源弹框但是只弹一次的通用处理逻辑，可参考：`AAFUniqueDialogManager`
 
+### InputDialogUtils
+
+- 支持输入的Dialog，基本用法同CommonDialog，仅增加一个输入框
+
 ### CommonDialog
 
 - 通用弹框，所有组件显示可控，调用方式可以参考 `BaseTest` 里面的 `TestDialogFragment`，显示样式参考：
@@ -61,10 +65,6 @@ implementation 'com.bihe0832.android:lib-dialog:+'
 
     <img src="./lib-dialog-radio.png" />
 
-### InputDialog
-
-- 支持输入的Dialog，基本用法同CommonDialog，仅增加一个输入框
-
 ### PopMenu
 
 - 在指定View周围弹出一个带图标的菜单列表（类似右上角），调用方式可以参考 `BaseTest` 里面的 `TestTextView`
@@ -80,3 +80,7 @@ implementation 'com.bihe0832.android:lib-dialog:+'
 ### BottomListDialog
 
 - 底部弹出的，支持列表选的Dialog
+
+### ImageDialog
+
+- 纯图片Dialog 

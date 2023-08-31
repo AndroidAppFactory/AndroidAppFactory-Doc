@@ -42,3 +42,38 @@ implementation 'com.bihe0832.android:lib-custom-view:+'
 
     - bgtv_isWidthHeightEqual：圆角矩形宽高相等,取较宽高中大值
 
+### TextViewWithBackground
+
+- 支持动态修改TextView背景，支持动态的内容有：
+
+    - bgtv_backgroundColor：背景色
+
+    - bgtv_cornerRadius：圆角弧度,单位dp
+
+    - bgtv_strokeWidth：圆角边框厚度,单位dp
+
+    - bgtv_strokeColor：圆角边框颜色
+
+    - bgtv_isRadiusHalfHeight：圆角弧度是高度一半
+
+    - bgtv_isWidthHeightEqual：圆角矩形宽高相等,取较宽高中大值
+
+### TextViewWithBackgroundExt
+
+- 基于Kotlin的扩展函数添加的 TextViewWithBackground 的扩展，使用 TextViewWithBackground 完成红点提醒的相关功能
+
+### AccCircleProgress
+
+- 圆环进度自定义View
+
+### SlideFinishLayout
+
+- 滑动解锁，此时整个UI右移
+
+### SwipeMenuLayout
+
+- 左滑删除
+
+### SlideViewLayout
+
+- 仿滑动解锁等滑动特效，仅内部LockBtn 在范围内滑动

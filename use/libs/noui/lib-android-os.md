@@ -22,12 +22,10 @@ implementation 'com.bihe0832.android:lib-android-os:+'
 
 ## 组件功能
 
-### OSUtils
+### BuildUtils
 
-- 根据进程ID获取进程名
+- 合规的获取 SDK 版本号，系统版本等信息
 
-- 当前系统版本，API 版本，是不是Android Q
-        
 ### DisplayUtil
 
 - 隐藏软键盘、虚拟导航判断
@@ -36,3 +34,17 @@ implementation 'com.bihe0832.android:lib-android-os:+'
   
 - dp，sp，px 等各类数据单位之间转换
 
+#### ManufacturerUtil 
+
+- 获取厂商、品牌、型号等基本信息
+
+- 获取当前使用语言
+
+- 是否指定厂商、对应厂商的操作系统版本
+
+### OSUtils
+
+- 根据进程ID获取进程名
+
+- 当前系统版本，API 版本，是不是Android Q
+        

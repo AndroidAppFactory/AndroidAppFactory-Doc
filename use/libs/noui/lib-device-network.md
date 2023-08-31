@@ -28,23 +28,19 @@ implementation 'com.bihe0832.android:lib-device-network:+'
 
 - 获取设备当前电量等级及充电状态
 
-#### DeviceIDUtils
-
-- 获取各种类型的设备ID，例如：Imei、Mac 地址、AndroidID、CID
-
-#### ManufacturerUtil 
-
-- 获取厂商、品牌、型号等基本信息
-
-- 获取当前使用语言
-
-- 是否指定厂商、对应厂商的操作系统版本
-
 #### ShakeManager
 
 - 手机传感器封装，通用的摇一摇实现
 
+#### DeviceIDUtils
+
+- 获取各种类型的设备ID，例如：Imei、Mac 地址、AndroidID、CID
+
 ### 网络相关
+
+#### ARPUtils
+
+- 发送 UDP 信息，发送ARP请求
 
 #### DeviceInfoManager
 
@@ -64,6 +60,10 @@ implementation 'com.bihe0832.android:lib-device-network:+'
 
 - 根据运营商代码 获取运营商名称
 
+#### MacUtils
+
+- 根据 ARP 表 获取 IP 对应的 Mac地址
+
 #### MobileUtil
 
 - 获取信号强度、移动网络是否可用、周边基站信息
@@ -75,3 +75,7 @@ implementation 'com.bihe0832.android:lib-device-network:+'
 #### WifiManagerWrapper
 
 - 获取Wi-Fi 基本信息类的封装
+
+#### WifiUtil
+
+- 实现WIFI相关的网络信息获取方法，周边设备、信道、信号强度等
