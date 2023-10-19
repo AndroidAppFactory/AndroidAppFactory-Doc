@@ -10,6 +10,8 @@
 
 ## 基于 AAF 构建模式
 
+**使用基于 AAF 构建模式 开发新项目时，新增一个模块最快的方式是复制并重命名一个已有模块，然后手动修改 dependencies.gradle 方式添加，不要直接使用IDE 提供的New Module 方式**
+
 ### 基于AAF 提供的空项目
 
 - 打开 Template-AAF: [https://github.com/AndroidAppFactory/Template-AAF](https://github.com/AndroidAppFactory/Template-AAF)
