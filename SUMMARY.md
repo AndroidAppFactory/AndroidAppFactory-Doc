@@ -104,7 +104,7 @@
             * [common-permission](use/common/common-permission.md)
     * [三方组件信息]()
         * [三方组件集]()
-            * [common-wrapper](use/services/services-wrapper.md)
+            * [services-wrapper](use/services/services-wrapper.md)
         * [三方组件]()
             * [services-google-pay](use/services/services-google-pay.md)
             * [services-google-ad](use/services/services-google-ad.md)
