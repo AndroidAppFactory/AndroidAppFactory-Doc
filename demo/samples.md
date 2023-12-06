@@ -8,7 +8,7 @@
 
 ### 应用截图
 
-<img src="./getapkinfo.png" width="40%" />
+<img src="./getapkinfo.png" width="40%" /><img src="./getapkinfo_dialog.png" width="40%" />
 
 ### 应用下载
 
