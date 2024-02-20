@@ -64,10 +64,16 @@ dependencies {
 
 - 引用：`api 'com.bihe0832.android:lib-wrapper:+'`
 
+#### ![CommonWrapperMin](https://img.shields.io/badge/AndroidAppFactory-CommonWrapperMin-brightgreen)[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-wrapper-min) ](https://search.maven.org/artifact/com.bihe0832.android/common-wrapper-min)
+
+- 简介：对于公共组件的集中管理所有通用组件
+
+- 引用：`api 'com.bihe0832.android:common-wrapper-min:+'`
+
     
 #### ![CommonWrapper](https://img.shields.io/badge/AndroidAppFactory-CommonWrapper-brightgreen)[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/common-wrapper) ](https://search.maven.org/artifact/com.bihe0832.android/common-wrapper)
 
-- 简介：对于公共组件的集中管理所有组件
+- 简介：对于公共组件的集中管理所有组件，在 CommonWrapperMin 的基础上增加了 SVGA、AceEditor、无障碍、绘图板、视频图片合成、截图等功能
 
 - 引用：`api 'com.bihe0832.android:common-wrapper:+'`
 

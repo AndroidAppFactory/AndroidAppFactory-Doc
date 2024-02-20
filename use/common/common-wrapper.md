@@ -6,7 +6,7 @@
 
 ## 功能简介
 
-所有公共组件的合集，建议平时开发直接使用CommonWrapper的最新版
+所有公共组件的合集，在 CommonWrapperMin 的基础上增加了 SVGA、AceEditor、无障碍、绘图板、视频图片合成、截图等功能，建议平时开发直接使用CommonWrapperMin的最新版
 
 ## 组件信息
 
