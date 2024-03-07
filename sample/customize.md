@@ -129,3 +129,22 @@ dependencies {
 ```
 
 - 运行APPTest
+
+## 常见错误
+
+### AndroidX 没开启
+
+- 错误描述：
+
+        Caused by: com.android.builder.errors.EvalIssueException: Configuration debugRuntimeClasspath contains AndroidX dependencies, but the android.useAndroidX property is not enabled, which may cause runtime issues.
+
+- 错误原因：
+
+    出现此错误时，需要在 `gradle.properties` 文件增加配置 `android.useAndroidX=true`。
+    
+- 解决方案：
+
+    由于 `gradle.properties` 文件会包含 一些编译环境（例如 Java Home 等环境变量等）、自定义数据（签名信息等敏感数据）等，所以开发中一般都是使用本地的全局配置，而不放在项目代码中。因此在项目中找不到 `gradle.properties` 文件。你可以在项目新增 `gradle.properties` 文件 并添加配置，具体事例可以参考：https://github.com/bihe0832/Settings-Tools/blob/master/as/gradle.properties
+    
+    或者在 Android Studio 的 Settings 里面的 Gradle 配置设置你自定义的全局配置的地址。
+
