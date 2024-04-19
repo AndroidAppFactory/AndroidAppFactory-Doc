@@ -37,9 +37,7 @@
 
 - 引用：`api 'com.bihe0832.android:common-wrapper-tbs:+'`
 
-#### ![ServicesWrapper](https://img.shields.io/badge/AndroidAppFactory-ServicesWrapper-brightgreen)
-[ ![Github](https://img.shields.io/badge/Github-ServicesWrapper-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/ServicesWrapper)
-![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/services-wrapper)
+#### ![ServicesWrapper](https://img.shields.io/badge/AndroidAppFactory-ServicesWrapper-brightgreen)[![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/services-wrapper)](https://img.shields.io/maven-central/v/com.bihe0832.android/services-wrapper)
 
 - 简介：第三方SDK 相关的封装，如 Google登录等 
 
