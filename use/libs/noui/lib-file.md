@@ -40,6 +40,8 @@ implementation 'com.bihe0832.android:lib-file:+'
 
 - Assets 相关操作，包括读取asest文件内容，复制Assets 文件或者整个文件夹到外部存储
 
+- 滑动读取或者写入指定文件的指定位置
+
 ### ZixieFileProvider
 
 - 封装的文件访问用的Provider

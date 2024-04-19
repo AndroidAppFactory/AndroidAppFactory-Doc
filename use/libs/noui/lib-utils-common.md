@@ -48,7 +48,7 @@ implementation 'com.bihe0832.android:lib-utils-common:+'
 
 ### ConvertUtils
 
-- 各种安全的类型转换，如 string -> int
+- 各种安全的类型转换，如 string -> int，long -> int，intToBytes，longToBytes 等
 
 - 数组、列表获取指定index的安全类型
 

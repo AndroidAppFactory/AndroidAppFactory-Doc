@@ -30,6 +30,8 @@ implementation 'com.bihe0832.android:lib-http-common:+'
 
 - 根据是否有data 信息 确定使用 GET 还是 POST
 
+- 支持添加 http 头，cookie，设置超时时间等
+
 - 支持文件上传
 
 <!-- ## 事例代码

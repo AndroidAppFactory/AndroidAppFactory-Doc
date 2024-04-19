@@ -51,10 +51,6 @@ implementation 'com.bihe0832.android:lib-encrypt:+'
 
 - RSA 加解密，支持"RSA/ECB/OAEPWithSHA-256AndMGF1Padding"、"RSA/ECB/PKCS1Padding" 等
 
-### ZlibUtil
-
-- 字符数组的压缩与解压缩
-
 ### AESKeyStoreUtils
 
 - 基于系统提供的利用 Android Keystore 生成秘钥的 AES 加解密
@@ -62,3 +58,7 @@ implementation 'com.bihe0832.android:lib-encrypt:+'
 ### RSAKeyStoreUtils
 
 - 基于系统提供的利用 Android Keystore 生成秘钥的 RSA 加解密
+
+### CompressionUtils
+
+- 字符数组的压缩与解压缩

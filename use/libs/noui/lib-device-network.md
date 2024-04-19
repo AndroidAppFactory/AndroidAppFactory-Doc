@@ -26,7 +26,7 @@ implementation 'com.bihe0832.android:lib-device-network:+'
 
 #### BatteryUtils
 
-- 获取设备当前电量等级及充电状态
+- 获取设备当前电量等级及充电状态、电池温度
 
 #### ShakeManager
 
@@ -79,3 +79,7 @@ implementation 'com.bihe0832.android:lib-device-network:+'
 #### WifiUtil
 
 - 实现WIFI相关的网络信息获取方法，周边设备、信道、信号强度等
+
+#### CPUHelper
+
+- 获取系统CPU核心数、最大频率、主频率、使用率、使用时间等

@@ -41,3 +41,7 @@ implementation 'com.bihe0832.android:lib-view-ext:+'
 ### DrawableFactory
 
 - 一些常见的背景颜色等的代码实现，减少xml形式的Drawable的使用，核心就是 GradientDrawable
+
+### ViewCaptureLayout
+
+- 此View 即是不添加到屏幕也可以生成Bitmap，对于View 生成图片的情况，可以使用该View

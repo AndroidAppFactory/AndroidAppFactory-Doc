@@ -14,6 +14,8 @@
 
 - 下载增加优先级，再队列已经满的情况下，部分高优先级文件依然可以下载
 
+- 支持完整的文件下载或者文件片段下载
+
 ## 组件信息
 
 #### 引用仓库
@@ -30,7 +32,7 @@ implementation 'com.bihe0832.android:lib-download:+'
 
 ### DownloadUtils
 
-- 底层实现，实现下载任务的添加、暂停、重试、删除、当前下载列表获取等
+- 底层实现，实现完整文件下载任务的添加、暂停、重试、删除、当前下载列表获取等
 
 ### DownloadConfig
 
@@ -55,3 +57,7 @@ implementation 'com.bihe0832.android:lib-download:+'
 ### DownloadAPK
 
 - 基于 `DownloadFile` 进一步封装的APK下载，下载完成直接使用 [LibAPK](./lib-install.md) 拉起安装
+
+### DownloadRangeUtils
+
+- 文件区间下载，支持下载指定文件的部分内容并保存在本地文件的指定位置

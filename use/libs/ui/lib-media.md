@@ -46,7 +46,7 @@ implementation 'com.bihe0832.android:lib-media:+'
 
 - Bitmap合并：例如上下拼接成为一个Bitmap，覆盖合成为一个Bitmap
 
-- Bitmap 压缩、旋转、Bitmap支持获取圆角等
+- Bitmap 缩放、压缩、旋转、Bitmap支持获取圆角等
 
 ### GlideExt
 
@@ -63,3 +63,7 @@ Glide 支持高斯模糊的转换方式
 ### AudioTools
 
 获取音频时长
+
+### TextToImageUtils
+
+- 文字生成图片
