@@ -23,13 +23,17 @@ implementation 'com.bihe0832.android:lib-encrypt:+'
 
 ## 组件功能
 
-### AESUtils
-
-- 各种类型的AES（自定义向量或无向量加密）计算，结果支持返回Base64、16进制字符串等
-
 ### GzipUtils
 
 - Gzip 的压缩与解压
+
+### CompressionUtils
+
+- 字符数组的压缩与解压缩
+
+### DataSegmentTools
+
+- 数据分片与合并，可以将byte数组根据最大长度分为多片，也可以把分片再次合并
 
 ###  HexUtils
 
@@ -47,6 +51,10 @@ implementation 'com.bihe0832.android:lib-encrypt:+'
 
 - 通用的MessageDigest，MD5、SHA256底层都是调用它
 
+### AESUtils
+
+- 各种类型的AES（自定义向量或无向量加密）计算，结果支持返回Base64、16进制字符串等
+
 ### RSAUtils
 
 - RSA 加解密，支持"RSA/ECB/OAEPWithSHA-256AndMGF1Padding"、"RSA/ECB/PKCS1Padding" 等
@@ -59,6 +67,4 @@ implementation 'com.bihe0832.android:lib-encrypt:+'
 
 - 基于系统提供的利用 Android Keystore 生成秘钥的 RSA 加解密
 
-### CompressionUtils
 
-- 字符数组的压缩与解压缩
