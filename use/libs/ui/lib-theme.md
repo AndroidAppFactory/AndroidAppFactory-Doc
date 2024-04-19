@@ -1,8 +1,8 @@
-# LibAAF
+# LibTheme
 
-![LibAAF](https://img.shields.io/badge/AndroidAppFactory-LibAAF-brightgreen)
-[ ![Github](https://img.shields.io/badge/Github-LibAAF-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibAAF)
-[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-aaf-tools) ](https://search.maven.org/artifact/com.bihe0832.android/lib-aaf-tools)
+![LibTheme](https://img.shields.io/badge/AndroidAppFactory-LibTheme-brightgreen)
+[ ![Github](https://img.shields.io/badge/Github-LibTheme-brightgreen?style=social) ](https://github.com/bihe0832/AndroidAppFactory/tree/master/LibTheme)
+[ ![Maven Central](https://img.shields.io/maven-central/v/com.bihe0832.android/lib-theme) ](https://search.maven.org/artifact/com.bihe0832.android/lib-theme)
 
 ## 功能简介
 
@@ -17,7 +17,7 @@ AAFException 等AAF的通用定义
 #### 组件使用
 
 ```groovy
-implementation 'com.bihe0832.android:lib-aaf-tools:+'
+implementation 'com.bihe0832.android:lib-theme:+'
 ```
 
 ## 组件功能
