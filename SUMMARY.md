@@ -44,6 +44,7 @@
             * [lib-ffmpeg-mobile-aaf](use/libs/noui/lib-ffmpeg-mobile-aaf.md)
             * [lib-crop](use/libs/noui/lib-crop.md)
             * [lib-image-meta](use/libs/noui/lib-image-meta.md)
+            * [lib-chinese](use/libs/noui/lib-chinese.md)
         * [UI相关]()
             * [lib-aaf-res](use/libs/ui/lib-aaf-res.md)
             * [lib-ui-common](use/libs/ui/lib-ui-common.md)
