@@ -4,7 +4,7 @@
   "author": "zixie",
   "language": "zh-hans",
   "styles": {
-    "website": "http://cdn.bihe0832.com/css/global.css"
+    "website": "styles/website.css"
   },
   "plugins": [
     "favicon",
