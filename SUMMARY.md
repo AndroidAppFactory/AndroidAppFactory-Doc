@@ -47,6 +47,8 @@
             * [lib-crop](use/libs/noui/lib-crop.md)
             * [lib-image-meta](use/libs/noui/lib-image-meta.md)
             * [lib-chinese](use/libs/noui/lib-chinese.md)
+            * [lib-language](use/libs/noui/lib-language.md)
+            * [lib-pinyin](use/libs/noui/lib-pinyin.md)
         * [UI相关]()
             * [lib-aaf-res](use/libs/ui/lib-aaf-res.md)
             * [lib-ui-common](use/libs/ui/lib-ui-common.md)
