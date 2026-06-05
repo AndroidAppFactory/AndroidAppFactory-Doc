@@ -1,8 +1,9 @@
 ## 开源仓库
 
- <a href="https://github.com/bihe0832/AndroidAppFactory"><img src="https://github-readme-stats.vercel.app/api/pin?username=bihe0832&repo=AndroidAppFactory" width ="50%" /></a> <a href="https://github.com/bihe0832/AndroidAppFactory-Sample"><img src="https://github-readme-stats.vercel.app/api/pin?username=bihe0832&repo=AndroidAppFactory-Sample" width ="50%" /></a>
-
- <a href="https://github.com/bihe0832/AndroidAppFactory-Doc"><img src="https://github-readme-stats.vercel.app/api/pin?username=bihe0832&repo=AndroidAppFactory-Doc" width ="50%" /></a> <a href="https://github.com/bihe0832/AndroidAppFactory-Pages"><img src="https://github-readme-stats.vercel.app/api/pin?username=bihe0832&repo=AndroidAppFactory-Pages" width ="50%" /></a>
+- **AndroidAppFactory**: [https://github.com/bihe0832/AndroidAppFactory](https://github.com/bihe0832/AndroidAppFactory)
+- **AndroidAppFactory-Sample**: [https://github.com/bihe0832/AndroidAppFactory-Sample](https://github.com/bihe0832/AndroidAppFactory-Sample)
+- **AndroidAppFactory-Doc**: [https://github.com/bihe0832/AndroidAppFactory-Doc](https://github.com/bihe0832/AndroidAppFactory-Doc)
+- **AndroidAppFactory-Pages**: [https://github.com/bihe0832/AndroidAppFactory-Pages](https://github.com/bihe0832/AndroidAppFactory-Pages)
 
 ## 相关链接
 
@@ -56,7 +57,7 @@
 
 ## 关于作者
 
-<img src="http://cdn.bihe0832.com/images/cv_1080.jpg" width ="80%" />
+<img src="https://cdn.bihe0832.com/images/cv_1080.jpg" width ="80%" />
 
 - 子勰博客：[https://blog.bihe0832.com/](https://blog.bihe0832.com/)
 

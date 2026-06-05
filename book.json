@@ -23,7 +23,7 @@
     "chapter-fold",
     "splitter",
     "hide-element",
-    "pageview-count",
+    "-pageview-count",
     "-sharing",
     "sharing-plus",
     "github",
@@ -107,7 +107,7 @@
     },
     "donate": {
       "wechat": "https://blog.bihe0832.com/public/img/wechat.jpeg",
-      "alipay": "http://cdn.bihe0832.com/images/head.jpg",
+      "alipay": "https://cdn.bihe0832.com/images/head.jpg",
       "title": "点击「鼓励」关注开发者微信公众号或者赞赏鼓励开发者",
       "button": "鼓励",
       "wechatText": "努力学技术",
