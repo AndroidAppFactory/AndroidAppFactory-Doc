@@ -7,7 +7,7 @@ replay：四端 UI 自动化录制与回放工具详解
 >
 > replay 采用"录制即 Flow、Flow 即可回放"的思路，支持 Android (ADB)、Web (Playwright)、macOS (CGEventTap)、Windows (pynput) 四端，统一数据格式，一份 Flow 可跨平台执行。
 
-## 一、设计理念：录制 → 回放 → 编排 → 报告
+## 设计理念：录制 → 回放 → 编排 → 报告
 
 replay 将 UI 自动化拆解为四个阶段：
 
@@ -25,7 +25,7 @@ replay 将 UI 自动化拆解为四个阶段：
 
 核心设计原则：**录制器各端独立（平台 API 天然不同），录制后的所有能力（Flow CRUD、执行引擎、报告、通知、前端界面）全部收敛到共享内核**。
 
-## 二、架构：core 内核 + 各端薄适配器
+## 架构：core 内核 + 各端薄适配器
 
 ```
 replay/
@@ -60,7 +60,7 @@ replay/
 - **D19**：砍顶层 device/resolution → 统一 `meta.profiles[default_profile]`
 - **D20**：单事件执行时序标准化（setup → step_executor → 截图 before/after → teardown）
 
-## 三、四端技术栈
+## 四端技术栈
 
 ### Android (ADB)
 
@@ -108,7 +108,7 @@ replay/
 
 **依赖**：pynput、Pillow
 
-## 四、数据模型：Event 与 Flow
+## 数据模型：Event 与 Flow
 
 ### 双层事件格式
 
@@ -170,7 +170,7 @@ replay/
 }
 ```
 
-## 五、执行引擎：runner 核心
+## 执行引擎：runner 核心
 
 runner 是 replay 的心脏，以 ADB 端 flow_runner 为蓝本统一重构。各平台只需提供 `step_executor` 回调（执行单个 event），其余逻辑全部由 core 处理：
 
@@ -230,7 +230,7 @@ setup → [创建目录 → 进度打印 → step_executor(
 
 <img src="./images/replay/flow.png" width="70%" />
 
-## 六、事件编辑器
+## 事件编辑器
 
 replay 提供了 Web 界面用于查看和编辑录制事件，通过 `zk replay flow manage` 一键启动本地服务：
 
@@ -240,7 +240,7 @@ replay 提供了 Web 界面用于查看和编辑录制事件，通过 `zk replay
 
 <img src="./images/replay/edit.png" width="70%" />
 
-## 七、报告系统
+## 报告系统
 
 每次 Flow 运行完成后，自动生成 HTML 交互报告，包含：
 
@@ -255,7 +255,7 @@ replay 提供了 Web 界面用于查看和编辑录制事件，通过 `zk replay
 
 <img src="./images/replay/screenshot-web.png" width="70%" />
 
-## 八、通知系统
+## 通知系统
 
 支持企业微信 Webhook 推送运行结果。可在 runner 中注册 `NotifyHook`，运行结束后自动发送通知卡片（流程名 / 成功/失败 / 关键截图 / 报告链接）：
 
@@ -269,7 +269,7 @@ notify_safe(title="Flow 运行完成", message="3/5 步骤通过", level="warnin
 notify_image_safe(snapshot_path, title="关键帧：登录页面")
 ```
 
-## 九、CLI 命令
+## CLI 命令
 
 ```bash
 # 录制（各平台独立命令）
@@ -297,7 +297,7 @@ zk replay adb doctor
 zk replay adb init
 ```
 
-## 十、当前规模
+## 当前规模
 
 | 指标 | 数值 |
 |------|:----:|

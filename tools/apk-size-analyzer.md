@@ -7,7 +7,7 @@ APK 体积分析与瘦身助手详解
 >
 > 本文介绍 `apk-size-analyzer` skill —— 一个将体积分析从"大致看看"升级为"精准拆解 + 源码关联 + 可执行方案"的工程化工具。
 
-## 一、为什么不直接用 Android Studio 自带的 APK Analyzer？
+## 为什么不直接用 Android Studio 自带的 APK Analyzer？
 
 AS 自带的 APK Analyzer 在日常开发中足够应付，但当你真正需要做体积治理时，它的能力就不够了：
 
@@ -24,36 +24,36 @@ AS 自带的 APK Analyzer 在日常开发中足够应付，但当你真正需要
 
 一句话总结：**AS APK Analyzer 告诉你"有多大"，这个 skill 告诉你"为什么大、大在哪、怎么瘦"。**
 
-## 二、体积分析的六大维度
+## 体积分析的六大维度
 
 AS APK Analyzer 只给出基本文件列表，而 `apk-size-analyzer` 从六个维度层层拆解：
 
-### 1. 构成分类 —— 体积都去哪了？
+### 构成分类 —— 体积都去哪了？
 
 按 DEX / Native / 资源 / Assets / 签名 / Kotlin 元数据 / Manifest / 其他 八大类别拆解，CSS 饼图 + 交互排序表格，一眼看清体积分布全貌。
 
-### 2. DEX 分析 —— 代码有多大？
+### DEX 分析 —— 代码有多大？
 
 解析每个 DEX 文件头部（前 112 字节），提取方法数、类数、字符串数。自动检测 MultiDex 与 R8 启用状态，计算方法数利用率。若方法数 ≥ 上限 90% 或多 DEX 但方法数利用率 < 50%，自动生成高优先级建议。
 
-### 3. Native SO 分析 —— C/C++ 库的体积账
+### Native SO 分析 —— C/C++ 库的体积账
 
 按 ABI 分组统计 .so 的体积分布，标记 STORED（未压缩）存储的 .so。**核心差异化能力**：通过 Gradle transforms 缓存自动反查每个 .so 的来源模块 / Maven 坐标，精确到"这个 14MB 的 .so 是从哪个依赖带进来的"。
 
-### 4. 资源分析 —— 图片、密度变体、Assets
+### 资源分析 —— 图片、密度变体、Assets
 
 - **大图识别**：列出所有 >100KB 的 PNG/JPG，标注是否可转 WebP
 - **密度变体统计**：检测是否存在 ≥4 个密度变体，提示可限定密度范围
 - **Assets 大文件**：列出 assets/ 下 >100KB 的文件
 
-### 5. 源码关联（可选，`--project` 启用）—— 这张图到底谁在用？
+### 源码关联（可选，`--project` 启用）—— 这张图到底谁在用？
 
 这是本工具最独特的能力之一。传入 `--project <工程根>` 后：
 
 - **图片使用位置反查**：按 APK 路径对图片分 4 类分别反查（assets / res/raw / res/drawable+mipmap / 其他 res/*），扫描 Kotlin/Java/XML 以及 html/js/json/css/md 等文本文件，覆盖静态引用（`@drawable/`、`R.xxx`、`android_asset/...`）、动态引用（字符串字面量），三档可信度标注。
 - **Lint 未使用资源扫描**：解析 `*/build/reports/lint-results-*.xml`，多 module 聚合去重，结合 APK 条目倒推体积。图片类用缩略图网格预览，非图片类用紧凑表格。
 
-### 6. 优化建议 —— 不只是"看看"，而是"怎么做"
+### 优化建议 —— 不只是"看看"，而是"怎么做"
 
 基于规则引擎自动生成 15+ 条优化建议，按严重程度分为 high / medium / low / info 四档：
 
@@ -64,7 +64,7 @@ AS APK Analyzer 只给出基本文件列表，而 `apk-size-analyzer` 从六个�
 | **Native SO** | high/medium/low | 多 ABI 冗余、STORED 存储浪费、超大 .so |
 | **资源图片** | high/medium | PNG/JPG → WebP、密度变体过多、大图未压缩 |
 
-## 三、工具核心能力
+## 工具核心能力
 
 - 📊 **六大维度拆解**：构成分类 + DEX + Native + 资源 + 大文件 + 优化建议
 - 🎯 **SO 来源归因**：自动反查 Gradle transforms 缓存，定位 .so 所属模块 / Maven 坐标
@@ -74,9 +74,9 @@ AS APK Analyzer 只给出基本文件列表，而 `apk-size-analyzer` 从六个�
 - 📄 **多格式支持**：APK / AAB / AAR 全链路
 - 🔄 **可重放**：自动生成重放命令，结果可分享、可复现
 
-## 四、实际分析效果
+## 实际分析效果
 
-### 4.1 终端输出（极简摘要）
+### 终端输出（极简摘要）
 
 ```
 ═══════ 📦 APK 体积分析 ═══════
@@ -89,7 +89,7 @@ AS APK Analyzer 只给出基本文件列表，而 `apk-size-analyzer` 从六个�
   python3 "/path/to/analyze_apk.py" "/path/to/app-release.apk"
 ```
 
-### 4.2 HTML 报告（完整模式）
+### HTML 报告（完整模式）
 
 HTML 报告包含最多 **7 个 Tab**：
 
@@ -123,7 +123,7 @@ HTML 报告包含最多 **7 个 Tab**：
 
   <img src="./images/apk-size-analyzer/plan.png" width="70%" />
 
-### 4.3 批量压缩工作流
+### 批量压缩工作流
 
 当启用 `--project` 且存在 ≥100KB 的 PNG/JPG 时，HTML「可优化图片」Tab 展示一键批量压缩面板：
 
@@ -143,7 +143,7 @@ bash <skill>/scripts/templates/compress_images.sh --list report_assets/compress_
 
 安全机制：默认 dry-run、API Key 预校验、自动备份、9-patch 跳过、无收益不覆盖、执行日志记录。
 
-## 五、各输入类型的分析范围
+## 各输入类型的分析范围
 
 | 输入类型 | 构成分析 | DEX | SO | 模块归因 | 源码关联 |
 |----------|:------:|:---:|:--:|:------:|:------:|
@@ -153,9 +153,9 @@ bash <skill>/scripts/templates/compress_images.sh --list report_assets/compress_
 
 APK 为完整产物，可做全维度分析。AAB/AAR 为中间产物，跳过部分不适合在该阶段做的分析。
 
-## 六、使用方法
+## 使用方法
 
-### 6.1 基本用法
+### 基本用法
 
 ```bash
 # 分析单个 APK（自动生成并打开 HTML 报告）
@@ -175,11 +175,11 @@ python3 analyze_apk.py --batch ./outputs/
 python3 analyze_apk.py --batch ./outputs/ --project ~/work/MyApp/
 ```
 
-### 6.2 自动工程推断
+### 自动工程推断
 
 当 APK 位于典型构建产物路径下（如 `build/outputs/apk/`、`build/intermediates/apk/`），工具会自动向上查找 `settings.gradle(.kts)` 推断工程根，无需手动传 `--project`。
 
-## 七、工作流程
+## 工作流程
 
 ```mermaid
 flowchart TD
@@ -207,15 +207,15 @@ flowchart TD
     P --> Q[report_html: HTML 多 Tab 报告 + 自动打开]
 ```
 
-## 八、常见优化方案速查
+## 常见优化方案速查
 
-### 8.1 切换到 App Bundle（优先级最高）
+### 切换到 App Bundle（优先级最高）
 
 ```bash
 ./gradlew bundleRelease
 ```
 
-### 8.2 限定 ABI
+### 限定 ABI
 
 ```groovy
 android {
@@ -225,7 +225,7 @@ android {
 }
 ```
 
-### 8.3 启用 R8 + shrinkResources
+### 启用 R8 + shrinkResources
 
 ```groovy
 android {
@@ -238,13 +238,13 @@ android {
 }
 ```
 
-### 8.4 PNG/JPG 转 WebP
+### PNG/JPG 转 WebP
 
 - Android Studio：右键 drawable 目录 → Convert to WebP
 - 命令行：`cwebp -q 75 input.png -o output.webp`
 - 或使用本 Skill 生成的 TinyPNG 一键批量压缩方案
 
-### 8.5 限定资源密度
+### 限定资源密度
 
 ```groovy
 android {
@@ -254,7 +254,7 @@ android {
 }
 ```
 
-## 九、集成到开发流程
+## 集成到开发流程
 
 ### 本地开发
 
@@ -281,7 +281,7 @@ python3 analyze_apk.py app/build/outputs/apk/release/app-release.apk \
   --project . --output release_size_report.html
 ```
 
-## 十、常见问题
+## 常见问题
 
 **Q1：SO 来源归因是如何工作的？**
 A：利用 Gradle transforms 缓存的映射关系。项目构建时 Gradle 会在 `.gradle/caches/transforms-*` 中留下依赖 → 产物 `.so` 的对应关系，工具遍历这些缓存即可反查每个 `.so` 来自哪个依赖。

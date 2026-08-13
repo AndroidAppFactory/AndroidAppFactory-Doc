@@ -7,7 +7,7 @@ APK/AAB/AAR 16KB 页面对齐检查工具详解
 >
 > 本文介绍 `apk-16kb-check` skill —— 一个将官方散落的多条命令工程化封装，一键完成 **APK / AAB / AAR / 工程目录** 合规检查与自动修复的工具。
 
-## 一、为什么不直接用官方工具？
+## 为什么不直接用官方工具？
 
 Google 官方提供了 `zipalign` 和 AOSP 的 `check_elf_alignment.sh`，但在实际使用中存在如下痛点：
 
@@ -23,17 +23,17 @@ Google 官方提供了 `zipalign` 和 AOSP 的 `check_elf_alignment.sh`，但在
 
 一句话总结：**官方工具是"原料"，这个 skill 是开箱即用的"厨房"。**
 
-## 二、16KB 对齐的两个维度
+## 16KB 对齐的两个维度
 
 很多开发者对 16KB 对齐的理解仅停留在"跑一下 zipalign"，但实际上 **Google 的要求有两层**，缺一不可：
 
-### 1. zipalign 对齐 —— ZIP 层
+### zipalign 对齐 —— ZIP 层
 
 - **检查**：`zipalign -c -P 16 -v 4 xxx.apk`
 - **含义**：APK（本质是 ZIP）内每个文件的**存储偏移量**是否按 16KB 对齐
 - **属性**：**打包问题**，可由工具自动修复（重新 zipalign）
 
-### 2. ELF LOAD 段对齐 —— SO 层
+### ELF LOAD 段对齐 —— SO 层
 
 - **检查**：AOSP 官方 `check_elf_alignment.sh`（底层是 `readelf -l`）
 - **含义**：`.so` 文件内部的 **ELF LOAD 段 alignment** 是否 ≥ 16384（2^14）
@@ -41,7 +41,7 @@ Google 官方提供了 `zipalign` 和 AOSP 的 `check_elf_alignment.sh`，但在
 
 > 💡 **关键区别**：zipalign 合格 ≠ ELF 合格。即使 APK 整体 zipalign 通过，里面某个 `.so` 也可能因为编译时用的是 NDK r26 以下而导致 LOAD 段按 4KB 对齐，最终在 16KB 设备上无法加载。**两项都必须过。**
 
-## 三、工具核心能力
+## 工具核心能力
 
 - 🧩 **多格式支持**：APK、AAB、AAR、单个 `.so`、Android 工程目录
 - 🔍 **双重检查**：zipalign 对齐验证 + ELF LOAD 段对齐检查并行执行
@@ -50,11 +50,11 @@ Google 官方提供了 `zipalign` 和 AOSP 的 `check_elf_alignment.sh`，但在
 - 📊 **双报告形态**：终端彩色输出 + HTML 报告（失败时自动浏览器打开）
 - 🎯 **来源分析**：遍历 Gradle 依赖树 + 本地 Gradle 缓存反查，精确指出问题 `.so` 来自哪个依赖
 
-## 四、实际检查效果
+## 实际检查效果
 
 以一次真实 APK（`Zixie_V1.2.0_103-debug.apk`）检查为例：
 
-### 4.1 zipalign 验证 + 自动修复
+### zipalign 验证 + 自动修复
 
 <img src="./images/apk-16kb-check/zipalign-report.png" width="70%" />
 
@@ -62,7 +62,7 @@ Google 官方提供了 `zipalign` 和 AOSP 的 `check_elf_alignment.sh`，但在
 - 工具识别出未对齐后，自动执行 `zipalign -P 16 -f 4` 修复
 - 修复后全部通过，输出新包 `Zixie_1v1.2.0_103-debug.aligned.apk`
 
-### 4.2 ELF LOAD 段检查
+### ELF LOAD 段检查
 
 <img src="./images/apk-16kb-check/elf-alignment-report.png" width="70%" />
 
@@ -70,7 +70,7 @@ Google 官方提供了 `zipalign` 和 AOSP 的 `check_elf_alignment.sh`，但在
 - 对齐 (ALIGNED) **13** 个，未对齐 (UNALIGNED) **3** 个
 - 每个未对齐 `.so` 都标注：**文件名 / 架构 / 对齐值 / NDK 版本 / 来源模块**
 
-### 4.3 针对性修复方案
+### 针对性修复方案
 
 <img src="./images/apk-16kb-check/fix-solution.png" width="70%" />
 
@@ -78,7 +78,7 @@ Google 官方提供了 `zipalign` 和 AOSP 的 `check_elf_alignment.sh`，但在
 - **方案二**：ELF 段需重新编译，给出具体链接参数和可替换的 NDK 版本
 - 附分步命令，直接复制即可重放
 
-## 五、各输入类型的检查范围
+## 各输入类型的检查范围
 
 不同输入对应不同的检查策略：
 
@@ -90,9 +90,9 @@ Google 官方提供了 `zipalign` 和 AOSP 的 `check_elf_alignment.sh`，但在
 | **`.so`** | ❌ | ✅ | 开发调试单文件，仅检查 ELF |
 | **工程目录** | ✅ | ✅ | 自动 `gradlew assemble` 后检查产物 APK |
 
-## 六、使用方法
+## 使用方法
 
-### 6.1 基本用法
+### 基本用法
 
 ```bash
 # APK 检查（完整 + 自动修复）
@@ -111,7 +111,7 @@ python3 check_alignment.py --batch ./outputs/
 python3 check_alignment.py ~/work/MyApp/
 ```
 
-### 6.2 HTML 报告
+### HTML 报告
 
 ```bash
 # 指定报告输出路径
@@ -121,7 +121,7 @@ python3 check_alignment.py app-release.apk report.html
 python3 check_alignment.py app-release.apk
 ```
 
-## 七、工作流程
+## 工作流程
 
 ### APK 检查
 
@@ -158,9 +158,9 @@ java -jar bundletool.jar build-apks \
 3. 执行 `./gradlew :{module}:assemble{Variant}`（默认 debug）
 4. 定位产物 APK，转入 APK 检查流程
 
-## 八、修复方案速查
+## 修复方案速查
 
-### 8.1 zipalign 层（打包问题）
+### zipalign 层（打包问题）
 
 | 方案 | 操作 | 备注 |
 |------|------|------|
@@ -168,7 +168,7 @@ java -jar bundletool.jar build-apks \
 | 关闭 legacy packaging | `jniLibs { useLegacyPackaging = false }` | `.so` 不压缩存储，对齐才生效 |
 | 手动 zipalign | `zipalign -P 16 -f 4 in.apk out.apk` | **必须在签名前执行** |
 
-### 8.2 ELF 段层（编译问题）
+### ELF 段层（编译问题）
 
 | 方案 | 操作 | 适用场景 |
 |------|------|----------|
@@ -177,7 +177,7 @@ java -jar bundletool.jar build-apks \
 | Gradle cmake 参数 | `arguments "-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON"` | Gradle 管理的 native 构建 |
 | 第三方 SDK | 升级 SDK 或联系供应商 | 闭源 `.so` |
 
-## 九、集成到开发流程
+## 集成到开发流程
 
 ### 本地开发
 
@@ -206,7 +206,7 @@ if git diff --cached --name-only | grep -E '\.(apk|aar)$'; then
 fi
 ```
 
-## 十、常见问题
+## 常见问题
 
 **Q1：为什么 AAR 跳过 zipalign 检查？**
 A：AAR 是中间产物，最终的 ZIP 偏移由宿主 APK 打包时决定，单独 check AAR 的 zipalign 没有意义，只需检查其中 `.so` 的 ELF 段即可。
