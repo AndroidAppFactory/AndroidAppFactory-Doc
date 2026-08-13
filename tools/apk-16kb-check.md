@@ -223,6 +223,12 @@ A：首选升级 SDK；若供应商迟迟不更新，短期可考虑剔除该 AB
 **Q5：zipalign 放在签名前还是签名后？**
 A：**必须签名前**。签名后再 zipalign 会使签名失效。本工具修复时会处理这一顺序。
 
+## 下载地址
+
+本工具源码位于 [VibeCodingForAAF](https://github.com/AndroidAppFactory/VibeCodingForAAF) 仓库：
+
+- [apk-16kb-check 源码](https://github.com/AndroidAppFactory/VibeCodingForAAF/tree/main/skills/apk-16kb-check)
+
 ## 相关链接
 
 - [Google 官方：支持 16KB 页面大小](https://developer.android.com/guide/practices/page-sizes?hl=zh-cn)

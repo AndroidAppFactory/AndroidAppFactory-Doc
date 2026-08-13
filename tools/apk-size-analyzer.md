@@ -298,6 +298,12 @@ A：.backup 目录自动创建在报告产物目录下，镜像备份原图。�
 **Q5：为什么 AAB 不做 SO 模块归因？**
 A：AAB 的模块归属应由 Play Console 的 App Bundle Explorer 负责，且拆 AAB 中间产物做归因可能得出不准确的模块映射。
 
+## 下载地址
+
+本工具源码位于 [VibeCodingForAAF](https://github.com/AndroidAppFactory/VibeCodingForAAF) 仓库：
+
+- [apk-size-analyzer 源码](https://github.com/AndroidAppFactory/VibeCodingForAAF/tree/main/skills/apk-size-analyzer)
+
 ## 相关链接
 
 - [姊妹 Skill：apk-16kb-check](../apk-16kb-check/SKILL.md) —— 16KB 页面对齐检查工具

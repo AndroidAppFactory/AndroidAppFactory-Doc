@@ -308,6 +308,12 @@ zk replay adb init
 | 支持事件类型 | 20+ 种跨平台动作 |
 | 架构决策记录 | 5 条 D 级决策 |
 
+## 下载地址
+
+本工具源码位于 [VibeCodingForAAF](https://github.com/AndroidAppFactory/VibeCodingForAAF) 仓库：
+
+- [replay 源码](https://github.com/AndroidAppFactory/VibeCodingForAAF/tree/main/skills/replay)
+
 ## 总结
 
 replay 把 UI 自动化从"写脚本"变成"录操作"：

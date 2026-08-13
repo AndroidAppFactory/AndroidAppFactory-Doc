@@ -135,7 +135,7 @@
     * [JSBridge](tools/android_jsbridge.md)
     * [Gradle依赖冲突检查](tools/gradle-dependencies-check.md)
     * [APK 16KB 页面对齐检查](tools/apk-16kb-check.md)
-    * [APK 体积分析与瘦身](tools/apk-size-analyzer.md)
+    * [APK 安装包精简与瘦身](tools/apk-size-analyzer.md)
     * [replay 四端 UI 自动化](tools/replay.md)
     
 
