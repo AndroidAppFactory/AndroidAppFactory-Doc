@@ -68,7 +68,7 @@ replay/
 
 **录制原理**：在手机端启动 `getevent -lt` 监听 `/dev/input/event*` 设备节点，解析 EV_ABS（触摸坐标）、EV_KEY（按键）事件，合并为 tap / swipe / keyevent 操作。
 
-**支持的事件**：`tap`、`swipe`、`keyevent`、`text`、`adb`、`tips`
+**支持的事件**：`tap`、`swipe`、`keyevent`、`text`、`adb`、`tips`、`install`（安装应用）、`uninstall`（卸载应用）
 
 **前置条件**：ADB 已安装、手机 USB 连接并授权调试、Python 3.8+
 
@@ -122,6 +122,7 @@ replay/
   "delay_before_ms": 500,
   "delay_after_ms": 0,
   "is_critical": false,
+  "capture_mode": "screenshot",
   "screenshots": {
     "before": "screenshots/event_000_0_before.jpg",
     "after":  "screenshots/event_000_1_after.jpg"
@@ -129,7 +130,7 @@ replay/
 }
 ```
 
-`type` 恒为 `"event"`，`action` 标识具体动作类型。不同平台的定位方式不同：
+`type` 恒为 `"event"`，`action` 标识具体动作类型。`capture_mode` 控制采集方式：`screenshot`（默认，截图）、`video`（录屏）、`none`（跳过采集，只等延迟，适用于无需视觉对比的场景）。不同平台的定位方式不同：
 
 - **ADB/macOS/Windows**：用 `x`/`y` 坐标
 - **Web**：用 `selectors` 链（`data-testid` → `id` → `aria-label` → `text` → `class` → `XPath`），提供多重定位保障
@@ -212,9 +213,11 @@ setup → [创建目录 → 进度打印 → step_executor(
          ) → 记录结果 → fail_fast] → teardown
 ```
 
+> `--max-delay` 参数可设置单步等待上限（秒），超过则截断等待，防止录制数据里过长的 delay 拖慢回放。
+
 ### Mixed Flow（跨平台流程）
 
-当 Flow 的 `platform` 为 `mixed` 时，每个步骤可携带 `_platform` 标记。runner 自动检测步骤的平台变化，在边界处 teardown 上一平台 → setup 下一平台：
+当 Flow 的 `platform` 为 `mixed` 时，每个步骤可携带 `_platform` 标记。mixed 采用**单进程分段执行**：单个 run_dir 连续编号，各平台 hook 通过工厂化 `build_hooks() + probe()` 构建，不可用平台的 step 标记为 `skipped`，三端（adb/web/win）统一走 `core.runner`：
 
 ```json
 {
@@ -246,7 +249,8 @@ replay 提供了 Web 界面用于查看和编辑录制事件，通过 `zk replay
 
 - **总览**：Flow 名称、平台、耗时、成功/失败步骤数
 - **步骤列表**：每步的 before/after 截图对比、执行耗时、成功状态
-- **关键帧**：标记 `is_critical: true` 的步骤作为报告的"封面"
+- **关键帧**：标记 `is_critical: true` 的步骤作为报告的"封面"，拼图支持 `layout` 参数（`order` 默认 / `compare` 对比），字号按整图总宽等比缩放
+- **全对比面板**：按 flow 分组，合并 before/after 对比图，同步骤同色，聚合重复 flow
 - **运行日志**：完整的 run.log 可追溯
 
 <img src="./images/replay/report.png" width="90%" />
@@ -257,56 +261,32 @@ replay 提供了 Web 界面用于查看和编辑录制事件，通过 `zk replay
 
 ## 通知系统
 
-支持企业微信 Webhook 推送运行结果。可在 runner 中注册 `NotifyHook`，运行结束后自动发送通知卡片（流程名 / 成功/失败 / 关键截图 / 报告链接）：
-
-```python
-from core.notify import notify_safe, notify_image_safe
-
-# 纯文本通知
-notify_safe(title="Flow 运行完成", message="3/5 步骤通过", level="warning")
-
-# 带截图的通知卡片
-notify_image_safe(snapshot_path, title="关键帧：登录页面")
-```
+支持企业微信 Webhook 推送运行结果——运行结束后自动发送通知卡片，含流程名、成功/失败状态、关键截图和报告链接，让无人值守的回放也能及时反馈结果。
 
 ## CLI 命令
 
+replay 的 CLI 经历过一次统一重构——从早期「`zk replay <平台> <动词>`」的分散形态，收敛为「`zk replay <动词> <参数>`」：四端共用同一套命令入口，平台只作为 `record` / `init` / `doctor` 的参数出现。几个代表性命令：
+
 ```bash
-# 录制（各平台独立命令）
-zk replay adb record 登录流程
-zk replay web record 首页浏览
-zk replay mac record 文件操作
-zk replay win record 安装向导
-
-# 回放录制产物
-zk replay adb play <录制目录>
-zk replay web play <录制目录>
-
-# 运行 Flow
-zk replay adb flow run a1b2c3d4
-zk replay adb flow run a1b2c3d4 --step 1,3,5-8    # 选择性执行
-
-# 生成 Flow 报告（不重新运行，基于已有产物）
-zk replay adb flow report a1b2c3d4
-
-# Flow 管理器（跨平台，Web 界面）
-zk replay flow manage --port 8090
-
-# 环境检查 / 初始化
-zk replay adb doctor
-zk replay adb init
+zk replay record adb          # 录制（平台作参数）
+zk replay play <录制目录>      # 回放录制产物
+zk replay run <flow-id>       # 运行 Flow（自动解析平台）
+zk replay report <flow-id>    # 重新生成报告
+zk replay manage              # Flow 管理器（Web 界面）
 ```
+
+配套命令还包括 `edit`（事件编辑器）、`pack`（多 Flow 合并打包）、`clean`（清理运行记录）等。`record` / `init` / `doctor` 的平台参数目前支持 `adb` / `web` / `win` 三端。
 
 ## 当前规模
 
 | 指标 | 数值 |
 |------|:----:|
 | 支持平台 | 4（ADB / Web / macOS / Windows） |
-| 共享核心模块 | 15 个 core 模块 |
-| Flow 仓库 | 40+ 个 Flow 定义 |
+| 共享核心模块 | 11 个 core 模块 |
+| Flow 仓库 | 82 个 Flow 定义 |
 | 前端界面 | 2 个（editor.html + flow.html） |
 | 支持事件类型 | 20+ 种跨平台动作 |
-| 架构决策记录 | 5 条 D 级决策 |
+| 架构决策记录 | 20+ 条 D 级决策 |
 
 ## 下载地址
 
