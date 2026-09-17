@@ -4,6 +4,7 @@
 - **AndroidAppFactory-Sample**: [https://github.com/bihe0832/AndroidAppFactory-Sample](https://github.com/bihe0832/AndroidAppFactory-Sample)
 - **AndroidAppFactory-Doc**: [https://github.com/bihe0832/AndroidAppFactory-Doc](https://github.com/bihe0832/AndroidAppFactory-Doc)
 - **AndroidAppFactory-Pages**: [https://github.com/bihe0832/AndroidAppFactory-Pages](https://github.com/bihe0832/AndroidAppFactory-Pages)
+- **VibeCodingForAAF**: [https://github.com/AndroidAppFactory/VibeCodingForAAF](https://github.com/AndroidAppFactory/VibeCodingForAAF)
 
 ## 相关链接
 
