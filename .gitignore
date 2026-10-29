@@ -57,3 +57,11 @@ gradle.properties
 _book
 node_modules
 package-lock.json
+
+######################
+# vitepress（只忽略构建产物，保留 config.mjs / sidebar.mjs / theme 配置）
+######################
+.vitepress/.temp
+.vitepress/cache
+.vitepress/dist
+.vitepress/*.timestamp-*.mjs
