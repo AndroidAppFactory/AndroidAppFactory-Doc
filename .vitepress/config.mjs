@@ -19,5 +19,8 @@ export default defineConfig({
   },
   themeConfig: {
     sidebar,
+    search: {
+      provider: 'local',
+    },
   },
 })
