@@ -69,7 +69,7 @@ call('getAppInfo', {packagename:"com.bihe0832.android.test"}, (res) => { console
 
 	手机连接电脑，开启调试模式，然后在chrome浏览器里面通过inspect打开webview调试页面，如下图：
 	
-	![d4374952.png](./jsbridge_inspect.png)
+	![d4374952.png](/tools/jsbridge_inspect.png)
 
 	点击当前打开的webview页面地址下方的inspec超链接，打开详细调试页面
 	
@@ -213,6 +213,6 @@ call('getAppInfo', {packagename:"com.bihe0832.android.test"}, (res) => { console
 
 	详细返回截图如下：
 
-	![d4374952.png](./jsbridge_result.png)
+	![d4374952.png](/tools/jsbridge_result.png)
 
 至此就完成了一个终端JSBridge接口的调试。

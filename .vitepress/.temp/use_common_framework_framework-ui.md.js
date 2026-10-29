@@ -1,0 +1,19 @@
+import { ssrRenderAttrs, ssrRenderStyle } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"公共框架UI模块","description":"","frontmatter":{},"headers":[],"relativePath":"use/common/framework/framework-ui.md","filePath":"use/common/framework/framework-ui.md"}');
+const _sfc_main = { name: "use/common/framework/framework-ui.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="公共框架ui模块" tabindex="-1">公共框架UI模块 <a class="header-anchor" href="#公共框架ui模块" aria-label="Permalink to &quot;公共框架UI模块&quot;">​</a></h1><p><img src="https://img.shields.io/badge/AndroidAppFactory-Framework-brightgreen" alt="Framework"><a href="https://github.com/bihe0832/AndroidAppFactory/tree/master/Framework" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Github-Framework-brightgreen?style=social" alt="Github"></a><a href="https://search.maven.org/artifact/com.bihe0832.android/framework" target="_blank" rel="noreferrer"><img src="https://img.shields.io/maven-central/v/com.bihe0832.android/framework" alt="Maven Central"></a></p><h2 id="功能简介" tabindex="-1">功能简介 <a class="header-anchor" href="#功能简介" aria-label="Permalink to &quot;功能简介&quot;">​</a></h2><p>公共框架的UI相关模块，主要定义了各种通用UI</p><h2 id="组件信息" tabindex="-1">组件信息 <a class="header-anchor" href="#组件信息" aria-label="Permalink to &quot;组件信息&quot;">​</a></h2><h4 id="引用仓库" tabindex="-1">引用仓库 <a class="header-anchor" href="#引用仓库" aria-label="Permalink to &quot;引用仓库&quot;">​</a></h4><p>引用仓库可以参考 <a href="./../start.html">组件使用</a> 中添加依赖的部分</p><h4 id="组件使用" tabindex="-1">组件使用 <a class="header-anchor" href="#组件使用" aria-label="Permalink to &quot;组件使用&quot;">​</a></h4><div class="language-groovy vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">groovy</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="${ssrRenderStyle({ "--shiki-light": "#24292E", "--shiki-dark": "#E1E4E8" })}">implementation </span><span style="${ssrRenderStyle({ "--shiki-light": "#032F62", "--shiki-dark": "#9ECBFF" })}">&#39;com.bihe0832.android:framework:+&#39;</span></span></code></pre></div><h2 id="组件功能" tabindex="-1">组件功能 <a class="header-anchor" href="#组件功能" aria-label="Permalink to &quot;组件功能&quot;">​</a></h2><h3 id="通用基础ui" tabindex="-1">通用基础UI <a class="header-anchor" href="#通用基础ui" aria-label="Permalink to &quot;通用基础UI&quot;">​</a></h3><ul><li><p>BaseActivity</p><p>支持沉浸式效果、onResume完成权限检查、初始化通用标题栏、子Fragment自动设置userVisibleHint、onActivityResult自动回调</p><p>返回上一级根据堆栈跳转到主界面，并且在主界面回退是提示是否退出应用</p></li><li><p>BaseApplication</p><p>根据进程名完成对应的初始化以及退出时的资源销毁</p><p>调试模式弹出调试模式Toast</p><p>修复 Android P 以后，跨进程webview 共享存储问题</p></li><li><p>BaseFragment</p><ul><li><p>userVisibleHint完成权限检查、子Fragment自动设置userVisibleHint、onActivityResult自动回调</p></li><li><p>定义通用的获取布局ID(getLayoutID)、解析intent(parseBundle)、初始化View(initView)、初始化数据获取initData)、前后台可见性(setUserVisibleHint)等接口</p></li></ul></li></ul><h3 id="通用主ui" tabindex="-1">通用主UI <a class="header-anchor" href="#通用主ui" aria-label="Permalink to &quot;通用主UI&quot;">​</a></h3><ul><li><p>CommonActivity</p><p>一款通用的包含一个全屏Fragment的空页面，使用事例包括：反馈页面、WebView 等</p></li><li><p>CommonMainFragment</p><p>一款支持底部Tab的 通用Fragment的页面</p></li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("use/common/framework/framework-ui.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const frameworkUi = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  frameworkUi as default
+};

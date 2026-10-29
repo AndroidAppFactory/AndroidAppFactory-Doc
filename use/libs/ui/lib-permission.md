@@ -22,7 +22,7 @@ implementation 'com.bihe0832.android:lib-permission:+'
 
 ## 组件功能
 
-<img src="./lib-permission.png" width="30%"/>
+<img src="/use/libs/ui/lib-permission.png" width="30%"/>
 
 ### PermissionDialog
 

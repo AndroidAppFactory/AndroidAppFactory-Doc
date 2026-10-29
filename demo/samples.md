@@ -8,7 +8,7 @@
 
 ### 应用截图
 
-<img src="./getapkinfo.png" width="40%" /><img src="./getapkinfo_dialog.png" width="40%" />
+<img src="/demo/getapkinfo.png" width="40%" /><img src="/demo/getapkinfo_dialog.png" width="40%" />
 
 ### 应用下载
 
@@ -24,7 +24,7 @@
 
 ### 应用截图
 
-<img src="./input.png" width="40%" />
+<img src="/demo/input.png" width="40%" />
 
 ### 应用下载
 
@@ -78,7 +78,7 @@
 
 ### 应用截图
 
-<img src="./puzzle.png" width="60%" />
+<img src="/demo/puzzle.png" width="60%" />
 
 ### 应用下载
 
@@ -96,7 +96,7 @@
 
 ### 应用截图
 
-<img src="./m3u8.png" width="60%" />
+<img src="/demo/m3u8.png" width="60%" />
 
 ### 应用下载
 
@@ -112,7 +112,7 @@
 
 ### 应用截图
 
-<img src="./shakeba.png" width="60%" />
+<img src="/demo/shakeba.png" width="60%" />
 
 ### 应用下载
 

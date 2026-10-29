@@ -26,7 +26,7 @@ Android TabLayout 库，支持图标，支持红点和数字，目前有三个 T
 
 组件效果如下：
 
-<img src="./lib-flycotablayout.gif" width="30%"/>
+<img src="/use/libs/ui/lib-flycotablayout.gif" width="30%"/>
 
 体验相关效果可以直接参考代码：https://github.com/bihe0832/AndroidAppFactory/tree/master/BaseDebug/src/main/java/com/bihe0832/android/base/debug/tab
 

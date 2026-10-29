@@ -47,13 +47,13 @@ implementation 'com.bihe0832.android:lib-dialog:+'
 
 - 通用弹框，所有组件显示可控，调用方式可以参考 `BaseTest` 里面的 `TestDialogFragment`，显示样式参考：
 
-    <img src="./../noui/lib-debug.png"/>
+    <img src="/use/libs/ui/../noui/lib-debug.png"/>
 
 ### DownloadProgressDialog
 
 - 带进度下载弹框，调用方式可以参考 `BaseTest` 里面的 `TestDialogFragment`，显示事例可以参考：
 
-    <img src="./../../common/framework/update.png" />
+    <img src="/use/libs/ui/../../common/framework/update.png" />
 
 ### LoadingDialog
 
@@ -63,7 +63,7 @@ implementation 'com.bihe0832.android:lib-dialog:+'
 
 - 支持单选框的Dialog，调用方式可以参考 `BaseTest` 里面的 `TestDialogFragment`，显示事例可以参考：
 
-    <img src="./lib-dialog-radio.png" />
+    <img src="/use/libs/ui/lib-dialog-radio.png" />
 
 ### PopMenu
 

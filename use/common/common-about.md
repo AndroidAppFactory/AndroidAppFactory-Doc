@@ -26,7 +26,7 @@ implementation 'com.bihe0832.android:common-about:+'
 
 整合了图标、版本、更多信息的关于页面（支持唤起调试信息）
 
-<img src="./common-about.png" />
+<img src="/use/common/common-about.png" />
 
 ### AboutFragment
 

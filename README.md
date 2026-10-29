@@ -21,7 +21,7 @@ AAF 是基于组件化方案，逐渐积累整理的一套完整的**组件化�
 
 这是AAF的一个总体架构：
 
-<img src="./aaf_architecture.png" />
+<img src="/aaf_architecture.png" />
 
 整个AAF框架共有四层：
 

@@ -29,10 +29,10 @@ implementation 'com.bihe0832.android:common-splash:+'
 
 - 展示首次启动时的用户隐私协议弹框
 
-<img src="./common-splash/AgreementPrivacy.png" width="30%"/>
+<img src="/use/common/common-splash/AgreementPrivacy.png" width="30%"/>
 
 ### SplashActivity
 
 - 简单的闪屏UI，支持Icon，APPName 和 Slogan，判断用户安装情况弹出隐私框
 
-<img src="./common-splash/SplashActivity.png" width="30%"/>
+<img src="/use/common/common-splash/SplashActivity.png" width="30%"/>

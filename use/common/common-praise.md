@@ -24,7 +24,7 @@ implementation 'com.bihe0832.android:common-praise:+'
 
 ### 使用效果
 
-<img src="./common-praise.png" width="30%"/>
+<img src="/use/common/common-praise.png" width="30%"/>
 
 - 通用的用户求好评组件
 

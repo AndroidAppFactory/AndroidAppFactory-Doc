@@ -24,7 +24,7 @@ implementation 'com.bihe0832.android:lib-toast:+'
 
 ### ToastUtils
 
-<img src="./lib-toast.png" width="30%"/>
+<img src="/use/libs/ui/lib-toast.png" width="30%"/>
 
 - 通用的Toast 弹框、解决设备兼容性问题
 

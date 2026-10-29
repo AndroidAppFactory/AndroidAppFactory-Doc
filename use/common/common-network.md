@@ -26,7 +26,7 @@ implementation 'com.bihe0832.android:common-network:+'
 
 - 提供了网络切变的回调，回调切变前后的网络变化，可以配合 DeviceInfoManager 获取更多信息，例如下图是一个测试场景的效果：
 
-    <img src="./common-network.png" width="30%"/>
+    <img src="/use/common/common-network.png" width="30%"/>
 
 上面效果的代码可以参考：[https://github.com/bihe0832/AndroidAppFactory/tree/master/BaseTest/src/main/java/com/bihe0832/android/base/test/network/TestNetworkActivity.kt](https://github.com/bihe0832/AndroidAppFactory/tree/master/BaseTest/src/main/java/com/bihe0832/android/base/test/network/TestNetworkActivity.kt)
 

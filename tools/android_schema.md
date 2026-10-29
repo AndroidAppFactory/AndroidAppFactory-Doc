@@ -8,7 +8,7 @@
 
 2. 按照下图的指引，输入URL后使用手机扫描即可跳转体验
 
-	<img src="./router_page.png" width="80%" />
+	<img src="/tools/router_page.png" width="80%" />
 
 ## 相关代码
 

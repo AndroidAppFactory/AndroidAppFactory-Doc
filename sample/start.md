@@ -27,7 +27,7 @@
 
     导入以后，点击右侧 Gradle 工具栏，运行`:showInfo`，如下图：
 
-    <img src="./start.png" width="60%" />
+    <img src="/sample/start.png" width="60%" />
 
     然后在控制台可以看到下面的信息
 

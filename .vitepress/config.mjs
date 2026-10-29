@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { sidebar } from './sidebar.mjs'
 
 export default defineConfig({
   // 站点部署在 /doc/ 子路径（nginx root 是 AndroidAppFactory-Doc 目录，VitePress 产物复制到 doc/）
@@ -15,5 +16,8 @@ export default defineConfig({
   // README.md 作为站点首页（映射为 index.html，nginx index 指向它）
   rewrites: {
     'README.md': 'index.md',
+  },
+  themeConfig: {
+    sidebar,
   },
 })

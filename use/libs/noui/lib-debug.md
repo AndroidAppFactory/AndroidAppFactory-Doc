@@ -26,7 +26,7 @@ implementation 'com.bihe0832.android:lib-debug:+'
 
 - 支持弹框展示调试信息，弹出输入框、分享调试信息文本，复制信息到剪切板
 
-<img src="./lib-debug.png"/>
+<img src="/use/libs/noui/lib-debug.png"/>
 
 ### DebugLogTips
 

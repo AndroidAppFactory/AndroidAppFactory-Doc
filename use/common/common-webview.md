@@ -108,14 +108,14 @@ implementation 'com.bihe0832.android:common-webview:+'
 
 - 对于 BaseWebviewFragment 的 进一步封装，打开时会自动在：URL参数、cookie、UserAgent，添加响应的字段，如下图：
 
- <img src="./common-webview/webview-params.png" width="80%"/>
+ <img src="/use/common/common-webview/webview-params.png" width="80%"/>
 
 
 ### WebPageActivity
 
 通用的带标题栏的 Webview Activity，标题栏自动获取网页标题，如下图，使用 [CommonWebviewFragment](./common-webview.md#commonwebviewfragment) 和   [CommonActivity](./framework/framework-ui.md#通用主ui)实现：
 
-<img src="./common-webview/webview-pages.png" width="30%"/>
+<img src="/use/common/common-webview/webview-pages.png" width="30%"/>
 
 ## 测试事例：
 

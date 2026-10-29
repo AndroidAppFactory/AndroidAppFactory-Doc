@@ -26,9 +26,9 @@ implementation 'com.bihe0832.android:common-feedback-tbs:+'
 
 用户界面：
 
-<img src="./common-feedback/common-feedback-user.png" width="90%"/>
+<img src="/use/common/common-feedback/common-feedback-user.png" width="90%"/>
 
 反馈提交以后管理端界面：
 
-<img src="./common-feedback/common-feedback.png" width="90%"/>
+<img src="/use/common/common-feedback/common-feedback.png" width="90%"/>
 
