@@ -205,7 +205,7 @@ call('getAppInfo', {packagename:"com.bihe0832.android.test"}, (res) => { console
 	```	 
 4. 当在页面中完成Web端的JSBridge实例的实例化以后，就可以调用新增的接口，测试效果，例如：
 	
-	```javascipt
+	```javascript
 	call('getAppInfo', {packagename:"com.bihe0832.android.test"}, (res) => {
 		console.log(res)
 	})
