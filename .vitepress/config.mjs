@@ -5,6 +5,10 @@ export default defineConfig({
   // 站点部署在 /doc/ 子路径（nginx root 是 AndroidAppFactory-Doc 目录，VitePress 产物复制到 doc/）
   // 这样资源引用 /doc/assets/xxx 才能正确命中
   base: '/doc/',
+  // 接入 pikachu-stats 访问统计（脚本含 SPA 路由监听，站内切换逐页上报）
+  head: [
+    ['script', { src: 'https://cdn.bihe0832.com/js/pikachu-stats.js?v=4fe2787c', defer: '' }],
+  ],
   title: 'AndroidAppFactory',
   description: 'AAF 框架文档',
   // 构建输出到 _book，nginx root 指向它（与旧 GitBook 产物目录保持一致）
