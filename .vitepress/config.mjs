@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/doc/',
   // 接入 pikachu-stats 访问统计（脚本含 SPA 路由监听，站内切换逐页上报）
   head: [
-    ['script', { src: 'https://cdn.bihe0832.com/js/pikachu-stats.js?v=4fe2787c', defer: '' }],
+    ['script', { src: 'https://cdn.bihe0832.com/js/pikachu-stats.js?v=98b30475', defer: '' }],
   ],
   title: 'AndroidAppFactory',
   description: 'AAF 框架文档',
